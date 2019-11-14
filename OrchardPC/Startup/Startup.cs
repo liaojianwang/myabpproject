@@ -18,6 +18,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MyAbpProject.Common.JsonConverters;
 //using Microsoft.Extensions.Hosting;
 using MyAbpProject.Configuration;
+using MyAbpProject.Identity;
 using Newtonsoft.Json.Serialization;
 
 namespace OrchardPC.Startup
@@ -53,6 +54,15 @@ namespace OrchardPC.Startup
                     NamingStrategy = new CamelCaseNamingStrategy()
                 };
             });
+
+            services.ConfigureApplicationCookie(option =>
+            {
+                option.LoginPath = $"/Login/Index";
+                option.LogoutPath = $"/Login/Index";
+                option.AccessDeniedPath = $"/Login/Index";
+            });
+            IdentityRegistrar.Register(services);
+
             // Configure Abp and Dependency Injection
             return services.AddAbp<MyAbpProjectWebMvcModule>(
                 // Configure Log4Net logging

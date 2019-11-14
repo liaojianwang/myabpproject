@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Abp.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MyAbpProject.Controllers;
@@ -19,6 +20,7 @@ namespace OrchardPC.Controllers
             _logger = logger;
         }
 
+        [AbpMvcAuthorize]
         public IActionResult Index()
         {
             return View();
