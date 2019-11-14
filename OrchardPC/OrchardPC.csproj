@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\src\MyAbpProject.Common\MyAbpProject.Common.csproj" />
     <ProjectReference Include="..\src\MyAbpProject.Web.Core\MyAbpProject.Web.Core.csproj" />
   </ItemGroup>
 

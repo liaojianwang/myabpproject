@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MyAbpProject.Common.JsonConverters;
 //using Microsoft.Extensions.Hosting;
 using MyAbpProject.Configuration;
 using Newtonsoft.Json.Serialization;
@@ -45,6 +46,8 @@ namespace OrchardPC.Startup
                 }
             ).AddNewtonsoftJson(options =>
             {
+                options.SerializerSettings.Converters.Add(new LongToStringConverter());
+
                 options.SerializerSettings.ContractResolver = new AbpMvcContractResolver(IocManager.Instance)
                 {
                     NamingStrategy = new CamelCaseNamingStrategy()

@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.EntityFramewor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrchardPC", "OrchardPC\OrchardPC.csproj", "{2885742D-4349-467A-84F3-1D82E93A7FB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAbpProject.Common", "src\MyAbpProject.Common\MyAbpProject.Common.csproj", "{13A96AEE-54D4-466D-A8DF-4EFA02BC04FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{2885742D-4349-467A-84F3-1D82E93A7FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2885742D-4349-467A-84F3-1D82E93A7FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2885742D-4349-467A-84F3-1D82E93A7FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A96AEE-54D4-466D-A8DF-4EFA02BC04FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A96AEE-54D4-466D-A8DF-4EFA02BC04FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A96AEE-54D4-466D-A8DF-4EFA02BC04FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A96AEE-54D4-466D-A8DF-4EFA02BC04FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{A2213374-BB48-48FD-BBD4-81E6A961D866} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{13A96AEE-54D4-466D-A8DF-4EFA02BC04FB} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE6633B0-BD1D-4695-ACE6-59587669AE5B}
