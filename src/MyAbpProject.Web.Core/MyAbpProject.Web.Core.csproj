@@ -19,6 +19,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyAbpProject.Application\MyAbpProject.Application.csproj" />
+    <ProjectReference Include="..\MyAbpProject.DapperCore\MyAbpProject.DapperCore.csproj" />
     <ProjectReference Include="..\MyAbpProject.EntityFrameworkCore\MyAbpProject.EntityFrameworkCore.csproj" />
   </ItemGroup>
   <ItemGroup>
