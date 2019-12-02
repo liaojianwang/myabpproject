@@ -12,8 +12,4 @@
     <ProjectReference Include="..\MyAbpProject.Core\MyAbpProject.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Mappings\" />
-  </ItemGroup>
-
 </Project>

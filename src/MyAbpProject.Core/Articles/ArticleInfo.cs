@@ -6,6 +6,9 @@ using System.Text;
 
 namespace MyAbpProject.Articles
 {
+    /// <summary>
+    /// 文章主实体类
+    /// </summary>
     [Serializable]
     [Table("dt_article")]
     public class ArticleInfo : BaseEntity

@@ -5,6 +5,10 @@ using System.Text;
 
 namespace MyAbpProject.Articles
 {
+    /// <summary>
+    /// 会员组价格
+    /// </summary>
+    [Serializable]
     [Table("dt_user_group_price")]
     public class UserGroupPriceInfo : BaseEntity
     {

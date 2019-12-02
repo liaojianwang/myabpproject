@@ -6,6 +6,9 @@ using System.Text;
 
 namespace MyAbpProject.Articles
 {
+    /// <summary>
+    /// 商品对应规格
+    /// </summary>
     [Serializable]
     [Table("dt_article_goods_spec")]
     public class ArticleGoodsSpecInfo:BaseEntity
