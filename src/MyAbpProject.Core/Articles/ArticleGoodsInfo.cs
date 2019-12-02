@@ -1,0 +1,104 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
+
+namespace MyAbpProject.Articles
+{
+    /// <summary>
+    /// 商品价格
+    /// </summary>
+    [Serializable]
+    [Table("dt_article_goods")]
+    public class ArticleGoodsInfo : BaseEntity
+    {
+        #region Model
+        private int _channel_id = 0;
+        private int _article_id = 0;
+        private string _goods_no = string.Empty;
+        private string _spec_ids = string.Empty;
+        private string _spec_text = string.Empty;
+        private int _stock_quantity = 0;
+        private decimal _market_price = 0M;
+        private decimal _sell_price = 0M;
+        /// <summary>
+        /// 频道ID
+        /// </summary>
+        public int channel_id
+        {
+            set { _channel_id = value; }
+            get { return _channel_id; }
+        }
+        /// <summary>
+        /// 文章ID
+        /// </summary>
+        public int article_id
+        {
+            set { _article_id = value; }
+            get { return _article_id; }
+        }
+        /// <summary>
+        /// 货号
+        /// </summary>
+        [MaxLength(MaxValueLength)]
+        public string goods_no
+        {
+            set { _goods_no = value; }
+            get { return _goods_no; }
+        }
+        /// <summary>
+        /// 规格ID以逗号分隔开
+        /// </summary>
+        [MaxLength(MaxValueLength)]
+        public string spec_ids
+        {
+            set { _spec_ids = value; }
+            get { return _spec_ids; }
+        }
+        /// <summary>
+        /// 规格描述
+        /// </summary>
+        [MaxLength(MaxValueLength)]
+        public string spec_text
+        {
+            set { _spec_text = value; }
+            get { return _spec_text; }
+        }
+        /// <summary>
+        /// 库存数量
+        /// </summary>
+        public int stock_quantity
+        {
+            set { _stock_quantity = value; }
+            get { return _stock_quantity; }
+        }
+        /// <summary>
+        /// 市场价格
+        /// </summary>
+        public decimal market_price
+        {
+            set { _market_price = value; }
+            get { return _market_price; }
+        }
+        /// <summary>
+        /// 销售价格
+        /// </summary>
+        public decimal sell_price
+        {
+            set { _sell_price = value; }
+            get { return _sell_price; }
+        }
+
+        private List<UserGroupPriceInfo> _group_prices;
+        /// <summary>
+        /// 会员组价格
+        /// </summary>
+        public List<UserGroupPriceInfo> group_prices
+        {
+            set { _group_prices = value; }
+            get { return _group_prices; }
+        }
+        #endregion
+    }
+}
