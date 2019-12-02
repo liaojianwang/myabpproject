@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyAbpProject.EntityFrameworkCore;
 
 namespace MyAbpProject.Migrations
 {
     [DbContext(typeof(MyAbpProjectDbContext))]
-    partial class MyAbpProjectDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191202030522_Update_Table_Article_seo_title")]
+    partial class Update_Table_Article_seo_title
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

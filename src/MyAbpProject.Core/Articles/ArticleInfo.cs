@@ -111,6 +111,7 @@ namespace MyAbpProject.Articles
         /// <summary>
         /// SEO标题
         /// </summary>
+        [MaxLength(MaxValueLength)]
         public string seo_title
         {
             set { _seo_title = value; }
@@ -263,6 +264,7 @@ namespace MyAbpProject.Articles
         /// 扩展字段字典
         /// </summary>
         private Dictionary<string, string> _fields;
+        [NotMapped]
         public Dictionary<string, string> fields
         {
             get { return _fields; }

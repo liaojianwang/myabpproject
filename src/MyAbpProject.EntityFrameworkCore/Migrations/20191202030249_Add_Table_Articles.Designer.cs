@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using MyAbpProject.EntityFrameworkCore;
 
 namespace MyAbpProject.Migrations
 {
     [DbContext(typeof(MyAbpProjectDbContext))]
-    partial class MyAbpProjectDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191202030249_Add_Table_Articles")]
+    partial class Add_Table_Articles
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -1349,8 +1351,7 @@ namespace MyAbpProject.Migrations
                         .HasMaxLength(512);
 
                     b.Property<string>("seo_title")
-                        .HasColumnType("nvarchar(512)")
-                        .HasMaxLength(512);
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("site_id")
                         .HasColumnType("int");
