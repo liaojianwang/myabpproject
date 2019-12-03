@@ -23,11 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.Web.Mvc", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.EntityFrameworkCore", "src\MyAbpProject.EntityFrameworkCore\MyAbpProject.EntityFrameworkCore.csproj", "{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.UiDemo", "MyAbpProject.UiDemo\MyAbpProject.UiDemo.csproj", "{72B6E6B3-B950-4F94-967F-0BD3CC7251BE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.DapperCore", "src\MyAbpProject.DapperCore\MyAbpProject.DapperCore.csproj", "{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAbpProject.Common", "MyAbpProject.Common\MyAbpProject.Common.csproj", "{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.Common", "MyAbpProject.Common\MyAbpProject.Common.csproj", "{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,10 +65,6 @@ Global
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{72B6E6B3-B950-4F94-967F-0BD3CC7251BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{72B6E6B3-B950-4F94-967F-0BD3CC7251BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{72B6E6B3-B950-4F94-967F-0BD3CC7251BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{72B6E6B3-B950-4F94-967F-0BD3CC7251BE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
