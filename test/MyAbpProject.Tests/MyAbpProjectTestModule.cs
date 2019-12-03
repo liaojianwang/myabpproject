@@ -12,8 +12,6 @@ using Abp.Zero.EntityFrameworkCore;
 using MyAbpProject.EntityFrameworkCore;
 using MyAbpProject.Tests.DependencyInjection;
 using MyAbpProject.DapperCore;
-using MyAbpProject.Configuration;
-using Abp.Reflection.Extensions;
 
 namespace MyAbpProject.Tests
 {
@@ -47,8 +45,6 @@ namespace MyAbpProject.Tests
             RegisterFakeService<AbpZeroDbMigrator<MyAbpProjectDbContext>>();
 
             Configuration.ReplaceService<IEmailSender, NullEmailSender>(DependencyLifeStyle.Transient);
-
-            CustomEFConnetionsConfig();
         }
 
         public override void Initialize()
@@ -65,11 +61,6 @@ namespace MyAbpProject.Tests
             );
         }
 
-        private void CustomEFConnetionsConfig()
-        {
-            var configura = AppConfigurations.Get(typeof(MyAbpProjectTestModule).Assembly.GetDirectoryPathOrNull());
-            string strConn = configura["ConnectionStrings:Default"];
-            Configuration.DefaultNameOrConnectionString = strConn;
-        }
+
     }
 }

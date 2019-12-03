@@ -9,6 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="App_Data\Logs\Logs.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Abp.Castle.Log4Net" Version="5.0.0" />
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.435" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Json" Version="2.2.0" />
@@ -26,6 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="App_Data\Logs\" />
     <Folder Include="Areas\Admin\Data\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\view-resources\Index\" />

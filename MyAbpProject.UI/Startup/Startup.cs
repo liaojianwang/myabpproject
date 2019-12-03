@@ -26,6 +26,7 @@ namespace MyAbpProject.Web.Startup
     {
         private readonly IConfigurationRoot _appConfiguration;
 
+        [Obsolete]
         public Startup(IHostingEnvironment env)
         {
             _appConfiguration = env.GetAppConfiguration();
@@ -56,7 +57,7 @@ namespace MyAbpProject.Web.Startup
 
             services.AddScoped<IWebResourceManager, WebResourceManager>();
 
-            services.AddSignalR();
+            //services.AddSignalR();
 
             // Configure Abp and Dependency Injection
             return services.AddAbp<MyAbpProjectWebMvcModule>(
@@ -67,6 +68,7 @@ namespace MyAbpProject.Web.Startup
             );
         }
 
+        [Obsolete]
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             app.UseAbp(); // Initializes ABP framework.
@@ -85,16 +87,20 @@ namespace MyAbpProject.Web.Startup
             app.UseRouting();
 
             app.UseAuthentication();
-            
+
             app.UseJwtTokenMiddleware();
-            
-            app.UseAuthorization();            
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapHub<AbpCommonHub>("/signalr");
+                endpoints.MapControllerRoute(
+                        name: "arearoute",
+                        pattern: "{area:exists}/{controller}/{action=index}/{id?}"
+                        );
+                //endpoints.MapHub<AbpCommonHub>("/signalr");
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
-                endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=Index}/{id?}");
+                //endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=Index}/{id?}");
             });
         }
     }

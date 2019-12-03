@@ -1,0 +1,488 @@
+DEBUG 2019-12-03 18:00:17,311 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-03 18:00:17,350 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-12-03 18:00:17,368 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.Web.Startup.MyAbpProjectWebMvcModule, MyAbpProject.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectWebCoreModule, MyAbpProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectApplicationModule, MyAbpProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,370 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectCoreModule, MyAbpProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.EntityFrameworkCore.MyAbpProjectEntityFrameworkModule, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.DapperCore.MyAbpProjectDapperModule, MyAbpProject.DapperCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:17,377 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-12-03 18:00:17,445 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:00:17,445 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:00:17,445 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbpProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:00:17,445 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:00:17,788 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyAbpProject.EntityFrameworkCore.MyAbpProjectDbContext, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:00:18,286 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-03 18:00:18,316 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-03 18:00:18,325 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-03 18:00:18,330 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbpProject
+DEBUG 2019-12-03 18:00:18,335 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-03 18:00:18,390 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-03 18:00:18,420 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-03 18:00:18,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-12-03 18:00:18,467 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-03 18:00:18,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.CreateUserDto
+DEBUG 2019-12-03 18:00:18,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.UserDto
+DEBUG 2019-12-03 18:00:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-03 18:00:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-03 18:00:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Roles.Dto.PermissionDto
+DEBUG 2019-12-03 18:00:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-03 18:00:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-03 18:00:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-12-03 18:00:18,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-12-03 18:00:20,620 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:20,680 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:20,770 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:20,840 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:00:21,173 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\adminatrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-03 18:00:21,249 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/  
+INFO  2019-12-03 18:00:21,330 [8    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2019-12-03 18:00:21,333 [8    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-12-03 18:00:21,343 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 95.3356ms 302 
+INFO  2019-12-03 18:00:21,354 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/Account/Login?ReturnUrl=%2F  
+INFO  2019-12-03 18:00:21,356 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI)'
+INFO  2019-12-03 18:00:22,866 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller MyAbpProject.Web.Controllers.AccountController (MyAbpProject.UI).
+DEBUG 2019-12-03 18:00:23,733 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:00:24,427 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-12-03 18:00:24,777 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 353.4194ms.
+INFO  2019-12-03 18:00:24,778 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI) in 1911.5779ms
+INFO  2019-12-03 18:00:24,779 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI)'
+INFO  2019-12-03 18:00:24,785 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3431.4161000000004ms 200 text/html; charset=utf-8
+INFO  2019-12-03 18:00:24,917 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/fonts/material-icons/materialicons.css?v=8pEJ8MWsFzHRDLY0NI5rssf6T6vankxrJDPnnZxOGrg  
+INFO  2019-12-03 18:00:24,920 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/fonts/roboto/roboto.css?v=53F8z0aw8DRnG9ou9x1tuKMPbNjRZWM-VBHl3B0s9-o  
+INFO  2019-12-03 18:00:24,922 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/bootstrap/dist/css/bootstrap.css?v=opI27tVP8lfzTdiKv9Wi8UuRkNhIAvZwMVLWtOpRHKk  
+INFO  2019-12-03 18:00:24,922 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/Waves/dist/waves.css?v=nd3hxjNg6DhkuFIz5IbxLK8Xw2ac0blsDQpF4pkJxUc  
+INFO  2019-12-03 18:00:24,930 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\Waves\dist\waves.css'
+INFO  2019-12-03 18:00:24,930 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.442500000000001ms 200 text/css
+INFO  2019-12-03 18:00:24,930 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/font-awesome/css/font-awesome.css?v=YIHlqxkiJtENTMuzIHC9EfZaB5RniGr7kF7juUQJUuc  
+INFO  2019-12-03 18:00:24,930 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/toastr/toastr.css?v=kKePN_CyxTiMEgsSDu_7z21ru07YOZtR-0UV0JOkt5o  
+INFO  2019-12-03 18:00:24,930 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2019-12-03 18:00:24,930 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.7476ms 200 text/css
+INFO  2019-12-03 18:00:24,930 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/css/materialize.css?v=ey-J3xahkqficOYUHVX3jexmzvRFrge9bmux4CQr1DQ  
+INFO  2019-12-03 18:00:24,930 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\fonts\roboto\roboto.css'
+INFO  2019-12-03 18:00:24,930 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.797500000000001ms 200 text/css
+INFO  2019-12-03 18:00:24,930 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/animate.css/animate.css?v=IT6GQizZpVcaM1_L_mIiNAYVvZErMgfwewf1GGWXG_I  
+INFO  2019-12-03 18:00:24,930 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/css/style.css?v=Hmj_hRbtMwZt6Iov-5Sm2qe6D6y7PFUTQRDdUyYreE4  
+INFO  2019-12-03 18:00:24,930 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\css\materialize.css'
+INFO  2019-12-03 18:00:24,931 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.3798ms 200 text/css
+INFO  2019-12-03 18:00:24,931 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=JVJiF3s2_kk99xQHfYhfxo_-Dd52ZIruDMOILwPkqv0  
+INFO  2019-12-03 18:00:24,931 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+INFO  2019-12-03 18:00:24,931 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.5556ms 200 text/css
+INFO  2019-12-03 18:00:24,934 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\font-awesome\css\font-awesome.css'
+INFO  2019-12-03 18:00:24,934 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.2595ms 200 text/css
+INFO  2019-12-03 18:00:24,936 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\toastr\toastr.css'
+INFO  2019-12-03 18:00:24,936 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\animate.css\animate.css'
+INFO  2019-12-03 18:00:24,936 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.2514ms 200 text/css
+INFO  2019-12-03 18:00:24,936 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.8623ms 200 text/css
+INFO  2019-12-03 18:00:24,939 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2019-12-03 18:00:24,939 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 16.731ms 200 text/css
+INFO  2019-12-03 18:00:24,940 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\css\style.css'
+INFO  2019-12-03 18:00:24,940 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.730500000000001ms 200 text/css
+INFO  2019-12-03 18:00:24,960 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/blockUI/jquery.blockUI.js?v=KKcUNqwNyTLaXzvuMyFk6JisiQq6Hk7ZtrciXnEf3Z0  
+INFO  2019-12-03 18:00:24,960 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/jquery-validation/dist/jquery.validate.js?v=ZDzsHzuLAtqQVxXwbgRtfAPXQ7UAoJRXBAUDvc9G9CI  
+INFO  2019-12-03 18:00:24,960 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/moment/min/moment-with-locales.js?v=5f0RFtuChrGi6osDzegxXWf5yOkmx45i7J9fM1p6P5w  
+INFO  2019-12-03 18:00:24,960 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/bootstrap/dist/js/bootstrap.js?v=1fo3W6qowq4PinpCsKshaVqewExoFmzrRBGKbSdAVEk  
+INFO  2019-12-03 18:00:24,960 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/jquery/dist/jquery.js?v=GcL_g4TBRVIQSi96WoMK71EGaYN9ZfsMIKm-50nlS4s  
+INFO  2019-12-03 18:00:24,960 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/json2/json2.js?v=w3DjWhUtDqy3bSJKv285C-2kagUtW9F64T9z3xRah8g  
+INFO  2019-12-03 18:00:24,960 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/view-resources/Views/Account/Login.css?v=poK-oXF5FUWfhU9hEaEbjLzGQhIVms6YtQoQ3OEZtec  
+INFO  2019-12-03 18:00:24,960 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/view-resources/Views/Account/_Layout.css?v=xwt8JYbj8Mkb1RNju6XwW_7TfGRHHIDWaSjBggiszMY  
+INFO  2019-12-03 18:00:24,961 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\json2\json2.js'
+INFO  2019-12-03 18:00:24,961 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\view-resources\Views\Account\Login.css'
+INFO  2019-12-03 18:00:24,961 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.4587ms 200 application/javascript
+INFO  2019-12-03 18:00:24,961 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.37110000000000004ms 200 text/css
+INFO  2019-12-03 18:00:24,961 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\view-resources\Views\Account\_Layout.css'
+INFO  2019-12-03 18:00:24,961 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.36860000000000004ms 200 text/css
+INFO  2019-12-03 18:00:24,961 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2019-12-03 18:00:24,963 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1496ms 200 application/javascript
+INFO  2019-12-03 18:00:24,964 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2019-12-03 18:00:24,964 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8865000000000003ms 200 application/javascript
+INFO  2019-12-03 18:00:24,967 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\jquery\dist\jquery.js'
+INFO  2019-12-03 18:00:24,967 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.8632ms 200 application/javascript
+INFO  2019-12-03 18:00:24,978 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/toastr/toastr.js?v=prO6YeBrp6FzpE6glX7_GlSoPssvH4_OmY6Z3YJ2c6c  
+INFO  2019-12-03 18:00:24,985 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\blockUI\jquery.blockUI.js'
+INFO  2019-12-03 18:00:24,986 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25.9842ms 200 application/javascript
+INFO  2019-12-03 18:00:24,986 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\toastr\toastr.js'
+INFO  2019-12-03 18:00:24,986 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.8516ms 200 application/javascript
+INFO  2019-12-03 18:00:24,986 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/spin.js/spin.js?v=b1plKpQIB-XuGyjWec42MhmhpPzEPzFI3OC8Ia0XIoc  
+INFO  2019-12-03 18:00:24,987 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\spin.js\spin.js'
+INFO  2019-12-03 18:00:24,987 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\moment\min\moment-with-locales.js'
+INFO  2019-12-03 18:00:24,987 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 26.9796ms 200 application/javascript
+INFO  2019-12-03 18:00:25,004 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/spin.js/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2019-12-03 18:00:25,011 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/Waves/dist/waves.js?v=ZOMv1vwqpT_ezNZGhvr9jJTr_jqu3lYHB7vmpxD7HmA  
+INFO  2019-12-03 18:00:25,012 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=EjNSmvtPSqCVK_xG_aTvOp8hmVM_7vwyd3hg45CAMGk  
+INFO  2019-12-03 18:00:25,014 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2019-12-03 18:00:25,014 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 9.9666ms 200 application/javascript
+INFO  2019-12-03 18:00:25,016 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+INFO  2019-12-03 18:00:25,016 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.8752ms 200 application/javascript
+INFO  2019-12-03 18:00:25,023 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2019-12-03 18:00:25,027 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+INFO  2019-12-03 18:00:25,027 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7880000000000003ms 200 application/javascript
+INFO  2019-12-03 18:00:25,027 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=QiSp17ew3zyFmdlcKq4HCIOw7UaqE8MC46Ekv50GzPs  
+INFO  2019-12-03 18:00:25,027 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2019-12-03 18:00:25,028 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2019-12-03 18:00:25,028 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2019-12-03 18:00:25,028 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6399ms 200 application/javascript
+INFO  2019-12-03 18:00:25,028 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.min.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\sweetalert\dist\sweetalert.min.js'
+INFO  2019-12-03 18:00:25,028 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0419ms 200 application/javascript
+INFO  2019-12-03 18:00:25,029 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+INFO  2019-12-03 18:00:25,029 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5218ms 200 application/javascript
+INFO  2019-12-03 18:00:25,032 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 45.776ms 200 application/javascript
+INFO  2019-12-03 18:00:25,046 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/js/admin.js?v=Arfe4oER5FiUTDitsyC7vauFkVzED5S2QjygyKFEnZ8  
+INFO  2019-12-03 18:00:25,047 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=XEXcdRYb4eN3XoQCbnM-BSR6UifHRLsXYDIVFZ7Oc6Q  
+INFO  2019-12-03 18:00:25,047 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2019-12-03 18:00:25,047 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.4504ms 200 application/javascript
+INFO  2019-12-03 18:00:25,052 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\js\admin.js'
+INFO  2019-12-03 18:00:25,052 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.133ms 200 application/javascript
+INFO  2019-12-03 18:00:25,054 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/js/main.js?v=VyWsNkiAGfKWocI-q8c4nTyUGbUC0ucuop0ebN3d1IQ  
+INFO  2019-12-03 18:00:25,054 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=fPp3O_ILaqD0UHiR721w1i4iBtxo3NH7yfldI5dg0_I  
+INFO  2019-12-03 18:00:25,054 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\js\main.js'
+INFO  2019-12-03 18:00:25,054 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6249ms 200 application/javascript
+INFO  2019-12-03 18:00:25,055 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2019-12-03 18:00:25,056 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2309ms 200 application/javascript
+INFO  2019-12-03 18:00:25,057 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/AbpServiceProxies/GetAll?v=637109928184210551  
+INFO  2019-12-03 18:00:25,065 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\Waves\dist\waves.js'
+INFO  2019-12-03 18:00:25,065 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 53.9003ms 200 application/javascript
+INFO  2019-12-03 18:00:25,065 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-03 18:00:25,065 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/lib/jquery-validation/src/localization/messages_zh_Hans.js?v=XUuMErmB-_cG9KcjKQpdh_se_7xGkbGzQZFXwFWneJg  
+INFO  2019-12-03 18:00:25,067 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/src/localization/messages_zh_Hans.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\lib\jquery-validation\src\localization\messages_zh_Hans.js'
+INFO  2019-12-03 18:00:25,068 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1163000000000003ms 200 application/javascript
+INFO  2019-12-03 18:00:25,081 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2019-12-03 18:00:25,084 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/AbpScripts/GetScripts?v=637109928184210551  
+INFO  2019-12-03 18:00:25,085 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-03 18:00:25,085 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/view-resources/Views/Account/Login.js?v=fva4_U7JLc8QKq91dLZyvV5oMz9WxjutKXJ_MOl_Dj8  
+INFO  2019-12-03 18:00:25,085 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\view-resources\Views\Account\Login.js'
+INFO  2019-12-03 18:00:25,085 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.5793ms 200 application/javascript
+INFO  2019-12-03 18:00:25,110 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2019-12-03 18:00:25,191 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-12-03 18:00:25,196 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 114.87400000000001ms
+INFO  2019-12-03 18:00:25,199 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-03 18:00:25,199 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 142.3127ms 200 application/x-javascript
+INFO  2019-12-03 18:00:25,222 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/fonts/material-icons/materialicons.woff  
+INFO  2019-12-03 18:00:25,225 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\fonts\material-icons\materialicons.woff'
+INFO  2019-12-03 18:00:25,225 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.0601000000000003ms 200 application/font-woff
+INFO  2019-12-03 18:00:25,243 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-12-03 18:00:25,244 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 133.4711ms
+INFO  2019-12-03 18:00:25,244 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-03 18:00:25,247 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 163.34290000000001ms 200 application/x-javascript; charset=utf-8
+INFO  2019-12-03 18:00:25,308 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/favicon.ico  
+INFO  2019-12-03 18:00:25,310 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\favicon.ico'
+INFO  2019-12-03 18:00:25,310 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.6956ms 200 image/x-icon
+DEBUG 2019-12-03 18:00:29,133 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:34,157 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:00:35,274 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/login/  
+INFO  2019-12-03 18:00:35,278 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.735ms 404 
+DEBUG 2019-12-03 18:00:39,186 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:44,199 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:49,494 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:54,516 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:00:59,535 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:24,434 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-03 18:01:24,456 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-12-03 18:01:24,475 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.Web.Startup.MyAbpProjectWebMvcModule, MyAbpProject.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectWebCoreModule, MyAbpProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectApplicationModule, MyAbpProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectCoreModule, MyAbpProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.EntityFrameworkCore.MyAbpProjectEntityFrameworkModule, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.DapperCore.MyAbpProjectDapperModule, MyAbpProject.DapperCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:24,484 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-12-03 18:01:24,537 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:24,537 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:24,537 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbpProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:24,537 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:24,853 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyAbpProject.EntityFrameworkCore.MyAbpProjectDbContext, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:25,324 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-03 18:01:25,345 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-03 18:01:25,353 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-03 18:01:25,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbpProject
+DEBUG 2019-12-03 18:01:25,363 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-03 18:01:25,418 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-03 18:01:25,448 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-03 18:01:25,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-12-03 18:01:25,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-03 18:01:25,497 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.CreateUserDto
+DEBUG 2019-12-03 18:01:25,497 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.UserDto
+DEBUG 2019-12-03 18:01:25,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-03 18:01:25,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-03 18:01:25,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Roles.Dto.PermissionDto
+DEBUG 2019-12-03 18:01:25,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-03 18:01:25,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-03 18:01:25,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-12-03 18:01:25,498 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-12-03 18:01:28,314 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:28,385 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:28,477 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:28,557 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:01:28,772 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\adminatrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-03 18:01:28,926 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/login/  
+INFO  2019-12-03 18:01:29,077 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 152.19410000000002ms 404 
+DEBUG 2019-12-03 18:01:30,457 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:35,482 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:40,500 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:45,514 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:01:48,055 [6    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-12-03 18:01:48,056 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-03 18:01:48,057 [6    ] rization.Users.UserTokenExpirationWorker - Stop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-03 18:01:48,058 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-03 18:01:48,058 [6    ] rization.Users.UserTokenExpirationWorker - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-03 18:01:48,058 [6    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-03 18:01:59,408 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-03 18:01:59,430 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-12-03 18:01:59,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.Web.Startup.MyAbpProjectWebMvcModule, MyAbpProject.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectWebCoreModule, MyAbpProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectApplicationModule, MyAbpProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectCoreModule, MyAbpProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.EntityFrameworkCore.MyAbpProjectEntityFrameworkModule, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.DapperCore.MyAbpProjectDapperModule, MyAbpProject.DapperCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:01:59,457 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-12-03 18:01:59,507 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:59,507 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:59,507 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbpProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:59,507 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:01:59,803 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyAbpProject.EntityFrameworkCore.MyAbpProjectDbContext, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:02:00,332 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-03 18:02:00,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-03 18:02:00,362 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-03 18:02:00,367 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbpProject
+DEBUG 2019-12-03 18:02:00,372 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-03 18:02:00,432 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-03 18:02:00,462 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-03 18:02:00,509 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-12-03 18:02:00,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-03 18:02:00,516 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.CreateUserDto
+DEBUG 2019-12-03 18:02:00,516 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.UserDto
+DEBUG 2019-12-03 18:02:00,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-03 18:02:00,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-03 18:02:00,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Roles.Dto.PermissionDto
+DEBUG 2019-12-03 18:02:00,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-03 18:02:00,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-03 18:02:00,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-12-03 18:02:00,517 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-12-03 18:02:02,559 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:02:02,621 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:02:02,706 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:02:02,779 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:02:02,940 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\adminatrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-03 18:02:02,982 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/  
+INFO  2019-12-03 18:02:03,051 [8    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2019-12-03 18:02:03,053 [8    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-12-03 18:02:03,062 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 80.45360000000001ms 302 
+INFO  2019-12-03 18:02:03,068 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/Account/Login?ReturnUrl=%2F  
+INFO  2019-12-03 18:02:03,071 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI)'
+INFO  2019-12-03 18:02:04,201 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller MyAbpProject.Web.Controllers.AccountController (MyAbpProject.UI).
+DEBUG 2019-12-03 18:02:05,460 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:02:05,677 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-12-03 18:02:06,338 [9    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 660.8469ms.
+INFO  2019-12-03 18:02:06,339 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI) in 2137.6685ms
+INFO  2019-12-03 18:02:06,340 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI)'
+INFO  2019-12-03 18:02:06,346 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3277.8172ms 200 text/html; charset=utf-8
+INFO  2019-12-03 18:02:06,416 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/AbpScripts/GetScripts?v=637109929204638916  
+INFO  2019-12-03 18:02:06,416 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/AbpServiceProxies/GetAll?v=637109929204638916  
+INFO  2019-12-03 18:02:06,420 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-03 18:02:06,420 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-03 18:02:06,430 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2019-12-03 18:02:06,431 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2019-12-03 18:02:06,506 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-12-03 18:02:06,506 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 75.9063ms
+INFO  2019-12-03 18:02:06,506 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-03 18:02:06,506 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90.54090000000001ms 200 application/x-javascript
+INFO  2019-12-03 18:02:06,537 [9    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-12-03 18:02:06,538 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 106.99640000000001ms
+INFO  2019-12-03 18:02:06,538 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-03 18:02:06,540 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 123.7826ms 200 application/x-javascript; charset=utf-8
+INFO  2019-12-03 18:02:06,560 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/favicon.ico  
+INFO  2019-12-03 18:02:06,569 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon.ico'. Physical path: 'H:\廖建旺\网上源码\myabpproject\MyAbpProject.UI\wwwroot\favicon.ico'
+INFO  2019-12-03 18:02:06,569 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.5801ms 200 image/x-icon
+DEBUG 2019-12-03 18:02:10,474 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:02:13,929 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/login/  
+INFO  2019-12-03 18:02:13,933 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.7289000000000003ms 404 
+DEBUG 2019-12-03 18:02:15,502 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:02:18,654 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/login/index  
+INFO  2019-12-03 18:02:18,657 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.8249ms 404 
+DEBUG 2019-12-03 18:02:20,516 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:02:25,520 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:05,730 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-03 18:03:05,752 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-12-03 18:03:05,770 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.Web.Startup.MyAbpProjectWebMvcModule, MyAbpProject.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectWebCoreModule, MyAbpProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectApplicationModule, MyAbpProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectCoreModule, MyAbpProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.EntityFrameworkCore.MyAbpProjectEntityFrameworkModule, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.DapperCore.MyAbpProjectDapperModule, MyAbpProject.DapperCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:05,777 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-12-03 18:03:05,822 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:03:05,822 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:03:05,822 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbpProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:03:05,822 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:03:06,119 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyAbpProject.EntityFrameworkCore.MyAbpProjectDbContext, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:03:06,635 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-03 18:03:06,656 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-03 18:03:06,665 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-03 18:03:06,670 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbpProject
+DEBUG 2019-12-03 18:03:06,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-03 18:03:06,735 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-03 18:03:06,765 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-03 18:03:06,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-12-03 18:03:06,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-03 18:03:06,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.CreateUserDto
+DEBUG 2019-12-03 18:03:06,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.UserDto
+DEBUG 2019-12-03 18:03:06,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-03 18:03:06,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-03 18:03:06,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Roles.Dto.PermissionDto
+DEBUG 2019-12-03 18:03:06,820 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-03 18:03:06,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-03 18:03:06,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-12-03 18:03:06,821 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-12-03 18:03:08,796 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:08,856 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:08,933 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:09,001 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:03:09,247 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\adminatrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-03 18:03:09,421 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/login/index  
+INFO  2019-12-03 18:03:09,505 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 84.9516ms 404 
+DEBUG 2019-12-03 18:03:11,785 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:16,817 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:21,838 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:26,952 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:31,965 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:36,975 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:41,992 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:03:47,004 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:00,791 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-03 18:04:00,942 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-12-03 18:04:00,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.Web.Startup.MyAbpProjectWebMvcModule, MyAbpProject.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectWebCoreModule, MyAbpProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectApplicationModule, MyAbpProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectCoreModule, MyAbpProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.EntityFrameworkCore.MyAbpProjectEntityFrameworkModule, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.DapperCore.MyAbpProjectDapperModule, MyAbpProject.DapperCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:00,972 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-12-03 18:04:01,034 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:04:01,034 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:04:01,034 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbpProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:04:01,034 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-03 18:04:01,424 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyAbpProject.EntityFrameworkCore.MyAbpProjectDbContext, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-03 18:04:02,715 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-03 18:04:02,738 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-03 18:04:02,747 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-03 18:04:02,751 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbpProject
+DEBUG 2019-12-03 18:04:02,756 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-03 18:04:02,953 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-03 18:04:03,067 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-03 18:04:03,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-12-03 18:04:03,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-03 18:04:03,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.CreateUserDto
+DEBUG 2019-12-03 18:04:03,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.UserDto
+DEBUG 2019-12-03 18:04:03,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-03 18:04:03,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-03 18:04:03,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Roles.Dto.PermissionDto
+DEBUG 2019-12-03 18:04:03,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-03 18:04:03,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-03 18:04:03,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-12-03 18:04:03,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-12-03 18:04:05,470 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:05,546 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:05,658 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:05,740 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:04:06,027 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\adminatrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-03 18:04:06,126 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/  
+INFO  2019-12-03 18:04:06,232 [4    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2019-12-03 18:04:06,237 [4    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-12-03 18:04:06,250 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 127.29700000000001ms 302 
+INFO  2019-12-03 18:04:06,262 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/Account/Login?ReturnUrl=%2F  
+INFO  2019-12-03 18:04:06,267 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI)'
+DEBUG 2019-12-03 18:04:08,715 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:04:09,490 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller MyAbpProject.Web.Controllers.AccountController (MyAbpProject.UI).
+INFO  2019-12-03 18:04:12,413 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI) - Validation state: Valid
+INFO  2019-12-03 18:04:12,425 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3.0809ms.
+INFO  2019-12-03 18:04:12,667 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-12-03 18:04:13,178 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 513.5501ms.
+INFO  2019-12-03 18:04:13,181 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI) in 3689.367ms
+INFO  2019-12-03 18:04:13,184 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.UI)'
+INFO  2019-12-03 18:04:13,192 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6930.3136ms 200 text/html; charset=utf-8
+INFO  2019-12-03 18:04:13,256 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/AbpScripts/GetScripts?v=637109930430689042  
+INFO  2019-12-03 18:04:13,256 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/AbpServiceProxies/GetAll?v=637109930430689042  
+INFO  2019-12-03 18:04:13,261 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-03 18:04:13,263 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-03 18:04:13,275 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2019-12-03 18:04:13,278 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2019-12-03 18:04:13,307 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-12-03 18:04:13,332 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2019-12-03 18:04:13,406 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 71.8289ms.
+INFO  2019-12-03 18:04:13,409 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-12-03 18:04:13,411 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 134.8236ms
+INFO  2019-12-03 18:04:13,414 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-03 18:04:13,418 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 160.4582ms 200 application/x-javascript
+INFO  2019-12-03 18:04:13,447 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult in 139.2998ms.
+INFO  2019-12-03 18:04:13,449 [11   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-12-03 18:04:13,455 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 172.58ms
+INFO  2019-12-03 18:04:13,457 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-03 18:04:13,459 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 205.1192ms 200 application/x-javascript; charset=utf-8
+DEBUG 2019-12-03 18:04:14,278 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:19,295 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:04:20,644 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/  
+INFO  2019-12-03 18:04:20,650 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.9287ms 404 
+INFO  2019-12-03 18:04:24,223 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/login/  
+INFO  2019-12-03 18:04:24,229 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3032ms 404 
+DEBUG 2019-12-03 18:04:24,298 [7    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:29,305 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-03 18:04:29,582 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62115/admin/login/index  
+INFO  2019-12-03 18:04:29,586 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.957ms 404 
+DEBUG 2019-12-03 18:04:34,319 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:39,339 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:44,350 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-03 18:04:49,366 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
