@@ -1,6 +1,9 @@
-﻿
+﻿@using Abp.Authorization.Users
+@using Abp.Web.Security.AntiForgery
+@inject IAbpAntiForgeryManager AbpAntiForgeryManager
 @{
     Layout = null;
+    AbpAntiForgeryManager.SetCookie(Context);
 }
 
 <!DOCTYPE html>
@@ -13,6 +16,7 @@
     <environment names="Development">
         <link rel="stylesheet" type="text/css" href="~/view-resources/Admin/skin/icon/iconfont.css" asp-append-version="true" />
         <link rel="stylesheet" type="text/css" href="~/view-resources/Admin/skin/default/style.css" asp-append-version="true" />
+        <link href="~/lib/toastr/toastr.css" rel="stylesheet" asp-append-version="true" />
     </environment>
 
     <environment names="Staging,Production">
@@ -20,6 +24,24 @@
         <link rel="stylesheet" type="text/css" href="~/view-resources/Admin/skin/default/style.min.css" asp-append-version="true" />
     </environment>
 
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js" asp-append-version="true"></script>
+        <script src="~/lib/toastr/toastr.js" asp-append-version="true"></script>
+        <script src="~/lib/sweetalert/dist/sweetalert.min.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/abp.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js" asp-append-version="true"></script>
+
+        <script src="~/view-resources/Admin/Views/Login/login.js" asp-append-version="true"></script>
+    </environment>
+    <environment include="Staging,Production">
+        <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+        <script src="~/view-resources/Admin/Views/Login/login.min.js" asp-append-version="true"></script>
+    </environment>
     <script type="text/javascript">
         $(function () {
             //检测IE
@@ -31,41 +53,33 @@
 </head>
 
 <body class="loginbody">
-    <form id="form1" runat="server">
+    <form id="form1" asp-action="CheckLogin" method="post">
         <div style="width: 100%; height: 100%; min-width: 300px; min-height: 260px;"></div>
         <div class="login-wrap">
             @*<div class="login-logo">LOGO</div>*@
             <div class="login-form">
                 <div class="col">
-                    <input type="text" ID="txtUserName" class="login-input" placeholder="管理员账号" title="管理员账号" />
+                    <input type="text" id="txtUserName" name="txtUserName" class="login-input" required maxlength="@AbpUserBase.MaxNameLength" placeholder="管理员账号" title="管理员账号" />
                     <label class="icon" for="txtUserName"><i class="iconfont icon-user"></i></label>
                 </div>
                 <div class="col">
-                    <input type="password" ID="txtPassword" class="login-input" placeholder="管理员密码" title="管理员密码" />
+                    <input type="password" id="txtPassword" name="txtPassword" class="login-input" required maxlength="@AbpUserBase.MaxPasswordLength" placeholder="管理员密码" />
                     <label class="icon" for="txtPassword"><i class="iconfont icon-key"></i></label>
                 </div>
                 <div class="col">
-                    <input type="button" id="btnSubmit" value="登 录" class="login-btn" />
+                    <input type="submit" id="btnSubmit" value="登 录" class="login-btn" />
                 </div>
             </div>
-            <div class="login-tips">
+            <div class="login-tips" style=" display:none;">
                 <i class="iconfont icon-info"></i>
-                <p id="msgtip" runat="server">请输入用户名和密码</p>
+                <p id="msgtip">请输入用户名和密码</p>
             </div>
         </div>
 
         <div class="copy-right">
-            <p>版权所有 ？？？ Copyright © 2009 - 2017 dtcms.net Inc. All Rights Reserved.</p>
+            <p>版权所有 ？？？ Copyright © 2009 - 2017 xxx.com Inc. All Rights Reserved.</p>
         </div>
     </form>
-    <environment include="Development">
-        <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
-        <script src="~/view-resources/Admin/Views/Login/login.js" asp-append-version="true"></script>
-    </environment>
-    <environment include="Staging,Production">
-        <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
-        <script src="~/view-resources/Admin/Views/Login/login.min.js" asp-append-version="true"></script>
-    </environment>
 </body>
 </html>
 
