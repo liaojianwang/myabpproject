@@ -14,6 +14,7 @@ using MyAbpProject.EntityFrameworkCore;
 using MyAbpProject.EntityFrameworkCore.Seed.Host;
 using MyAbpProject.EntityFrameworkCore.Seed.Tenants;
 using MyAbpProject.MultiTenancy;
+using MyAbpProject.EntityFrameworkCore.Seed.CmsData;
 
 namespace MyAbpProject.Tests
 {
@@ -35,6 +36,7 @@ namespace MyAbpProject.Tests
                 NormalizeDbContext(context);
                 new InitialHostDbBuilder(context).Create();
                 new DefaultTenantBuilder(context).Create();
+                new DefaultManagerBuilder(context).Create();
             });
 
             // Seed initial data for default tenant

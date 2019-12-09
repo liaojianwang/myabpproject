@@ -7,6 +7,7 @@ using Abp.EntityFrameworkCore.Uow;
 using Abp.MultiTenancy;
 using MyAbpProject.EntityFrameworkCore.Seed.Host;
 using MyAbpProject.EntityFrameworkCore.Seed.Tenants;
+using MyAbpProject.EntityFrameworkCore.Seed.CmsData;
 
 namespace MyAbpProject.EntityFrameworkCore.Seed
 {
@@ -27,6 +28,7 @@ namespace MyAbpProject.EntityFrameworkCore.Seed
             // Default tenant seed (in host database).
             new DefaultTenantBuilder(context).Create();
             new TenantRoleAndUserBuilder(context, 1).Create();
+            new DefaultManagerBuilder(context).Create();
         }
 
         private static void WithDbContext<TDbContext>(IIocResolver iocResolver, Action<TDbContext> contextAction)
