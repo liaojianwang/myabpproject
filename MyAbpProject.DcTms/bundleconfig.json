@@ -1,0 +1,8 @@
+[
+  {
+    "outputFileName": "wwwroot/view-resources/Admin/Views/Login/login.min.js",
+    "inputFiles": [
+      "wwwroot/view-resources/Admin/Views/Login/login.js"
+    ]
+  }
+]

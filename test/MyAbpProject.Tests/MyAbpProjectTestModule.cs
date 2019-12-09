@@ -11,13 +11,15 @@ using Abp.Zero.Configuration;
 using Abp.Zero.EntityFrameworkCore;
 using MyAbpProject.EntityFrameworkCore;
 using MyAbpProject.Tests.DependencyInjection;
+using MyAbpProject.DapperCore;
 
 namespace MyAbpProject.Tests
 {
     [DependsOn(
         typeof(MyAbpProjectApplicationModule),
         typeof(MyAbpProjectEntityFrameworkModule),
-        typeof(AbpTestBaseModule)
+        typeof(AbpTestBaseModule),
+        typeof(MyAbpProjectDapperModule)
         )]
     public class MyAbpProjectTestModule : AbpModule
     {
@@ -58,5 +60,7 @@ namespace MyAbpProject.Tests
                     .LifestyleSingleton()
             );
         }
+
+
     }
 }

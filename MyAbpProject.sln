@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}"
 EndProject
@@ -21,7 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.Web.Core", "sr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.Web.Mvc", "src\MyAbpProject.Web.Mvc\MyAbpProject.Web.Mvc.csproj", "{A2213374-BB48-48FD-BBD4-81E6A961D866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAbpProject.EntityFrameworkCore", "src\MyAbpProject.EntityFrameworkCore\MyAbpProject.EntityFrameworkCore.csproj", "{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.EntityFrameworkCore", "src\MyAbpProject.EntityFrameworkCore\MyAbpProject.EntityFrameworkCore.csproj", "{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.DapperCore", "src\MyAbpProject.DapperCore\MyAbpProject.DapperCore.csproj", "{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.Common", "MyAbpProject.Common\MyAbpProject.Common.csproj", "{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.DcTms", "MyAbpProject.DcTms\MyAbpProject.DcTms.csproj", "{F6D554D7-5A28-4053-ABDB-AADE7E07D06D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAbpProject.UI", "MyAbpProject.UI\MyAbpProject.UI.csproj", "{6984772B-F93A-417F-9742-EEE6045D0E10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +69,22 @@ Global
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D554D7-5A28-4053-ABDB-AADE7E07D06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D554D7-5A28-4053-ABDB-AADE7E07D06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D554D7-5A28-4053-ABDB-AADE7E07D06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D554D7-5A28-4053-ABDB-AADE7E07D06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6984772B-F93A-417F-9742-EEE6045D0E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6984772B-F93A-417F-9742-EEE6045D0E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6984772B-F93A-417F-9742-EEE6045D0E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6984772B-F93A-417F-9742-EEE6045D0E10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +98,10 @@ Global
 		{22CFE0D2-8DCA-42D7-AD7D-784C3862493F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{A2213374-BB48-48FD-BBD4-81E6A961D866} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
 		{E0580562-F8F2-4EBB-B07A-ABFC6F2C314F} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{AED788FE-8AAA-4348-8DE2-C399A8A5F17E} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+		{B595D5FB-D336-4D20-BAC0-A6199FFFF6E0} = {AFAA0841-BD93-466F-B8F4-FB4EEC86F1FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65895FB6-3226-46C9-BA2C-EE68E2730177}
 	EndGlobalSection
 EndGlobal

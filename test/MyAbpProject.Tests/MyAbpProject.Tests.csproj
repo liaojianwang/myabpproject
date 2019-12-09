@@ -11,6 +11,25 @@
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Dapper\DapperRepository_Tests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="appsettings.json" />
+    <None Remove="appsettings.Staging.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="appsettings.Staging.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\..\src\MyAbpProject.Application\MyAbpProject.Application.csproj" />
     <ProjectReference Include="..\..\src\MyAbpProject.EntityFrameworkCore\MyAbpProject.EntityFrameworkCore.csproj" />
   </ItemGroup>
@@ -36,4 +55,8 @@
   <ItemGroup>
     <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dapper\" />
+  </ItemGroup>
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="http://json.schemastore.org/2.0.0-csd.2.beta.2018-10-10.json" /></VisualStudio></ProjectExtensions>
 </Project>

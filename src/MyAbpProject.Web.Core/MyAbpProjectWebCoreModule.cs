@@ -12,6 +12,7 @@ using Abp.Zero.Configuration;
 using MyAbpProject.Authentication.JwtBearer;
 using MyAbpProject.Configuration;
 using MyAbpProject.EntityFrameworkCore;
+using MyAbpProject.DapperCore;
 
 namespace MyAbpProject
 {
@@ -20,6 +21,7 @@ namespace MyAbpProject
          typeof(MyAbpProjectEntityFrameworkModule),
          typeof(AbpAspNetCoreModule)
         ,typeof(AbpAspNetCoreSignalRModule)
+        ,typeof(MyAbpProjectDapperModule)
      )]
     public class MyAbpProjectWebCoreModule : AbpModule
     {
