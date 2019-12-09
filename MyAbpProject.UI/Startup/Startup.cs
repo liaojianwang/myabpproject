@@ -26,7 +26,6 @@ namespace MyAbpProject.Web.Startup
     {
         private readonly IConfigurationRoot _appConfiguration;
 
-        [Obsolete]
         public Startup(IHostingEnvironment env)
         {
             _appConfiguration = env.GetAppConfiguration();
@@ -68,7 +67,6 @@ namespace MyAbpProject.Web.Startup
             );
         }
 
-        [Obsolete]
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             app.UseAbp(); // Initializes ABP framework.
@@ -94,13 +92,13 @@ namespace MyAbpProject.Web.Startup
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                        name: "arearoute",
-                        pattern: "{area:exists}/{controller}/{action=index}/{id?}"
-                        );
+                //endpoints.MapControllerRoute(
+                //        name: "arearoute",
+                //        pattern: "{area:exists}/{controller}/{action=index}/{id?}"
+                //        );
                 //endpoints.MapHub<AbpCommonHub>("/signalr");
                 endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
-                //endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute("defaultWithArea", "{area}/{controller}/{action=Index}/{id?}");
             });
         }
     }

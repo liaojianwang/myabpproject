@@ -252,3 +252,4 @@ paket-files/
 *.sln.iml
 /src/MyAbpProject.Web.Host/App_Data/Logs/Logs.txt
 /MyAbpProject.DcTms/App_Data/Logs/Logs.txt
+/MyAbpProject.UI/wwwroot/view-resources/Admin/Views/Login/login.min.js

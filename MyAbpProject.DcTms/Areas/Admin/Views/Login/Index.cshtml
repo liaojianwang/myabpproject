@@ -20,7 +20,6 @@
         <link rel="stylesheet" type="text/css" href="~/view-resources/Admin/skin/default/style.min.css" asp-append-version="true" />
     </environment>
 
-    @*<script type="text/javascript" src="../scripts/jquery/jquery-1.11.2.min.js"></script>*@
     <script type="text/javascript">
         $(function () {
             //检测IE
@@ -59,16 +58,14 @@
             <p>版权所有 ？？？ Copyright © 2009 - 2017 dtcms.net Inc. All Rights Reserved.</p>
         </div>
     </form>
-    @section youmei{
-        <environment names="Development">
-            <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
-            <script src="~/view-resources/Admin/Views/Login/login.js" asp-append-version="true"></script>
-        </environment>
-        <environment names="Staging,Production">
-            <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
-            <script src="~/view-resources/Admin/Views/Login/login.min.js" asp-append-version="true"></script>
-        </environment>
-    }
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
+        <script src="~/view-resources/Admin/Views/Login/login.js" asp-append-version="true"></script>
+    </environment>
+    <environment include="Staging,Production">
+        <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
+        <script src="~/view-resources/Admin/Views/Login/login.min.js" asp-append-version="true"></script>
+    </environment>
 </body>
 </html>
 
