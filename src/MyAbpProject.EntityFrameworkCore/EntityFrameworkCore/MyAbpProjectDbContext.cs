@@ -4,6 +4,7 @@ using MyAbpProject.Authorization.Roles;
 using MyAbpProject.Authorization.Users;
 using MyAbpProject.MultiTenancy;
 using MyAbpProject.Articles;
+using MyAbpProject.CmsEntities;
 
 namespace MyAbpProject.EntityFrameworkCore
 {
@@ -21,5 +22,6 @@ namespace MyAbpProject.EntityFrameworkCore
         public DbSet<ArticleGoodsInfo> ArticleGoodsInfo { get; set; }
         public DbSet<ArticleGoodsSpecInfo> ArticleGoodsSpecInfo { get; set; }
         public DbSet<UserGroupPriceInfo> UserGroupPriceInfo { get; set; }
+        public DbSet<ManagerInfo> ManagerInfo { get; set; }
     }
 }
