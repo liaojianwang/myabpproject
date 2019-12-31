@@ -1,4 +1,14 @@
-﻿
+﻿@using System.Globalization
+@using Abp.Configuration
+@using Abp.Configuration.Startup
+@using Abp.Web.Mvc.Alerts
+@using Abp.Web.Security.AntiForgery
+@using MyAbpProject
+@using MyAbpProject.Configuration
+@inject MyAbpProject.Timing.AppTimes AppTimes
+@inject IAbpAntiForgeryManager AbpAntiForgeryManager
+@inject IMultiTenancyConfig MultiTenancyConfig
+@inject IAlertManager AlertManager
 @{
     ViewData["Title"] = "Index";
     // Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
@@ -11,14 +21,26 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <title>后台管理中心</title>
     <environment names="Development">
+        <link href="~/lib/toastr/toastr.css" rel="stylesheet" asp-append-version="true" />
+
         <link href="~/lib/artdialog/ui-dialog.css" rel="stylesheet" asp-append-version="true" />
         <link rel="stylesheet" type="text/css" href="~/view-resources/Admin/skin/icon/iconfont.css" asp-append-version="true" />
         <link rel="stylesheet" type="text/css" href="~/view-resources/Admin/skin/default/style.css" asp-append-version="true" />
+
         <script src="~/lib/jquery/dist/jquery.js" asp-append-version="true"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.js" asp-append-version="true"></script>
+        <script src="~/lib/toastr/toastr.js" asp-append-version="true"></script>
+        <script src="~/lib/sweetalert/dist/sweetalert.min.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/abp.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js" asp-append-version="true"></script>
+        <script src="~/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js" asp-append-version="true"></script>
         <script src="~/lib/jquery/jquery.nicescroll.js" asp-append-version="true"></script>
-        <script src="~/lib/artdialog/dialog-plus-min.js" charset="utf-8" asp-append-version="true"></script>
+        @*<script src="~/lib/artdialog/dialog-plus-min.js" charset="utf-8" asp-append-version="true"></script>*@
         <script src="~/view-resources/Admin/Views/AdminHome/layindex.js" charset="utf-8" asp-append-version="true"></script>
-        <script src="~/view-resources/Admin/Views/AdminHome/common.js" charset="utf-8" asp-append-version="true"></script>
+        @*<script src="~/view-resources/Admin/Views/AdminHome/common.js" charset="utf-8" asp-append-version="true"></script>*@
     </environment>
     <environment names="Staging,Production">
         <link rel="stylesheet" type="text/css" href="../scripts/artdialog/ui-dialog.css" />
@@ -31,6 +53,9 @@
         <script type="text/javascript" charset="utf-8" src="js/common.js"></script>
     </environment>
     <script type="text/javascript">
+        // This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
+        var abp = abp || {};
+        abp.appPath = '@ApplicationPath';
         //页面加载完成时
         $(function () {
             //检测IE
@@ -38,6 +63,7 @@
                 window.location.href = 'ie6update.html';
             }
         });
+        console.log(abp.appPath);
     </script>
 </head>
 

@@ -20,11 +20,11 @@ namespace MyAbpProject.Entities
         /// <summary>
         /// 所属父导航ID
         /// </summary>
-        public int ParentId { get; set; }
+        public long ParentId { get; set; }
         /// <summary>
         /// 所属频道ID
         /// </summary>
-        public int ChannelId { get; set; }
+        public long ChannelId { get; set; }
         /// <summary>
         /// 导航类别
         /// </summary>
