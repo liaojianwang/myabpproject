@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MyAbpProject.Authentication.JwtBearer;
 using MyAbpProject.Common;
 using MyAbpProject.Configuration;
 using MyAbpProject.Identity;
@@ -112,6 +113,10 @@ namespace MyAbpProject.DcTms.Startup
                     })
             });
             app.UseRouting();
+
+            //一定得加这两行，否则登录无效
+            app.UseAuthentication();
+            app.UseJwtTokenMiddleware();
 
             app.UseAuthorization();
 

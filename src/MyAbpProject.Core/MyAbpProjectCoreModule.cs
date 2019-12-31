@@ -1,4 +1,5 @@
-﻿using Abp.Modules;
+﻿using Abp.Domain.Uow;
+using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Abp.Timing;
 using Abp.Zero;
@@ -28,6 +29,8 @@ namespace MyAbpProject
 
             // Enable this line to create a multi-tenant application.
             Configuration.MultiTenancy.IsEnabled = MyAbpProjectConsts.MultiTenancyEnabled;
+            Configuration.UnitOfWork.OverrideFilter(AbpDataFilters.MustHaveTenant, MyAbpProjectConsts.MultiTenancyEnabled);
+            Configuration.UnitOfWork.OverrideFilter(AbpDataFilters.MayHaveTenant, MyAbpProjectConsts.MultiTenancyEnabled);
 
             // Configure roles
             AppRoleConfig.Configure(Configuration.Modules.Zero().RoleManagement);

@@ -20,5 +20,10 @@ namespace MyAbpProject.AdminLogin.Dtos
         /// </summary>
         [Required]
         public string txtPassword { get; set; }
+
+        /// <summary>
+        /// 是否记住账号
+        /// </summary>
+        public bool RememberMe { get; set; }
     }
 }

@@ -18067,3 +18067,838 @@ DEBUG 2019-12-23 13:17:22,954 [71   ] rization.Users.UserTokenExpirationWorker -
 DEBUG 2019-12-23 13:17:22,955 [71   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
 DEBUG 2019-12-23 13:17:22,956 [71   ] rization.Users.UserTokenExpirationWorker - WaitToStop background worker: Abp.Authorization.Users.UserTokenExpirationWorker
 DEBUG 2019-12-23 13:17:22,956 [71   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-12-31 16:16:43,512 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-12-31 16:16:43,556 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2019-12-31 16:16:43,579 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.Web.Startup.MyAbpProjectWebMvcModule, MyAbpProject.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectWebCoreModule, MyAbpProject.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectApplicationModule, MyAbpProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.MyAbpProjectCoreModule, MyAbpProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.EntityFrameworkCore.MyAbpProjectEntityFrameworkModule, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,586 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyAbpProject.DapperCore.MyAbpProjectDapperModule, MyAbpProject.DapperCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,587 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Dapper.AbpDapperModule, Abp.Dapper, Version=5.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:43,590 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2019-12-31 16:16:43,672 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-31 16:16:43,672 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-31 16:16:43,672 [1    ] o.Configuration.LanguageManagementConfig - Converted MyAbpProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-31 16:16:43,672 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-12-31 16:16:44,035 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: MyAbpProject.EntityFrameworkCore.MyAbpProjectDbContext, MyAbpProject.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-12-31 16:16:44,606 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-12-31 16:16:44,627 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-12-31 16:16:44,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-12-31 16:16:44,641 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: MyAbpProject
+DEBUG 2019-12-31 16:16:44,646 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-12-31 16:16:44,703 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2019-12-31 16:16:44,733 [1    ] rization.Users.UserTokenExpirationWorker - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker
+DEBUG 2019-12-31 16:16:44,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-12-31 16:16:44,778 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-12-31 16:16:44,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.CreateUserDto
+DEBUG 2019-12-31 16:16:44,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Users.Dto.UserDto
+DEBUG 2019-12-31 16:16:44,785 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-12-31 16:16:44,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-12-31 16:16:44,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Roles.Dto.PermissionDto
+DEBUG 2019-12-31 16:16:44,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-12-31 16:16:44,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.MultiTenancy.Dto.TenantDto
+DEBUG 2019-12-31 16:16:44,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2019-12-31 16:16:44,786 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyAbpProject.Web.Models.Roles.EditRoleModalViewModel
+DEBUG 2019-12-31 16:16:46,865 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:16:46,946 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:16:47,021 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:16:47,078 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:16:47,108 [1    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:16:48,547 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\adminatrator\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2019-12-31 16:16:48,593 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-12-31 16:16:48,646 [8    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:16:48,679 [8    ] uthorization.DefaultAuthorizationService - Authorization failed.
+INFO  2019-12-31 16:16:48,682 [8    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2019-12-31 16:16:48,691 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 98.5754ms 302 
+INFO  2019-12-31 16:16:48,698 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+INFO  2019-12-31 16:16:48,700 [11   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:16:48,701 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.Web.Mvc)'
+DEBUG 2019-12-31 16:16:49,810 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:16:49,943 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Login(System.String, System.String, System.String) on controller MyAbpProject.Web.Controllers.AccountController (MyAbpProject.Web.Mvc).
+INFO  2019-12-31 16:16:51,945 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Login.
+INFO  2019-12-31 16:16:52,337 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Login executed in 394.8469ms.
+INFO  2019-12-31 16:16:52,339 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.Web.Mvc) in 2396.2197ms
+INFO  2019-12-31 16:16:52,340 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.Web.Mvc)'
+INFO  2019-12-31 16:16:52,347 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3648.5035000000003ms 200 text/html; charset=utf-8
+INFO  2019-12-31 16:16:52,415 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=53F8z0aw8DRnG9ou9x1tuKMPbNjRZWM-VBHl3B0s9-o  
+INFO  2019-12-31 16:16:52,417 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=8pEJ8MWsFzHRDLY0NI5rssf6T6vankxrJDPnnZxOGrg  
+INFO  2019-12-31 16:16:52,421 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.css was not modified
+INFO  2019-12-31 16:16:52,421 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/roboto/roboto.css was not modified
+INFO  2019-12-31 16:16:52,421 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=opI27tVP8lfzTdiKv9Wi8UuRkNhIAvZwMVLWtOpRHKk  
+INFO  2019-12-31 16:16:52,422 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/css/bootstrap.css was not modified
+INFO  2019-12-31 16:16:52,422 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.827100000000001ms 304 text/css
+INFO  2019-12-31 16:16:52,422 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.8494ms 304 text/css
+INFO  2019-12-31 16:16:52,422 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6201ms 304 text/css
+INFO  2019-12-31 16:16:52,425 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=kKePN_CyxTiMEgsSDu_7z21ru07YOZtR-0UV0JOkt5o  
+INFO  2019-12-31 16:16:52,425 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.css was not modified
+INFO  2019-12-31 16:16:52,426 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8719ms 304 text/css
+INFO  2019-12-31 16:16:52,428 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=JVJiF3s2_kk99xQHfYhfxo_-Dd52ZIruDMOILwPkqv0  
+INFO  2019-12-31 16:16:52,428 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.css was not modified
+INFO  2019-12-31 16:16:52,429 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8353ms 304 text/css
+INFO  2019-12-31 16:16:52,430 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=YIHlqxkiJtENTMuzIHC9EfZaB5RniGr7kF7juUQJUuc  
+INFO  2019-12-31 16:16:52,431 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/css/font-awesome.css was not modified
+INFO  2019-12-31 16:16:52,431 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8132ms 304 text/css
+INFO  2019-12-31 16:16:52,434 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=nd3hxjNg6DhkuFIz5IbxLK8Xw2ac0blsDQpF4pkJxUc  
+INFO  2019-12-31 16:16:52,434 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.css was not modified
+INFO  2019-12-31 16:16:52,435 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0066ms 304 text/css
+INFO  2019-12-31 16:16:52,437 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=IT6GQizZpVcaM1_L_mIiNAYVvZErMgfwewf1GGWXG_I  
+INFO  2019-12-31 16:16:52,438 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/animate.css/animate.css was not modified
+INFO  2019-12-31 16:16:52,438 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8004ms 304 text/css
+INFO  2019-12-31 16:16:52,441 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=ey-J3xahkqficOYUHVX3jexmzvRFrge9bmux4CQr1DQ  
+INFO  2019-12-31 16:16:52,441 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/materialize.css was not modified
+INFO  2019-12-31 16:16:52,442 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9191ms 304 text/css
+INFO  2019-12-31 16:16:52,446 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=Hmj_hRbtMwZt6Iov-5Sm2qe6D6y7PFUTQRDdUyYreE4  
+INFO  2019-12-31 16:16:52,446 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/style.css was not modified
+INFO  2019-12-31 16:16:52,447 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9826ms 304 text/css
+INFO  2019-12-31 16:16:52,448 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=xwt8JYbj8Mkb1RNju6XwW_7TfGRHHIDWaSjBggiszMY  
+INFO  2019-12-31 16:16:52,448 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/_Layout.css was not modified
+INFO  2019-12-31 16:16:52,449 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9781000000000001ms 304 text/css
+INFO  2019-12-31 16:16:52,453 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=poK-oXF5FUWfhU9hEaEbjLzGQhIVms6YtQoQ3OEZtec  
+INFO  2019-12-31 16:16:52,454 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.css was not modified
+INFO  2019-12-31 16:16:52,454 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8873000000000001ms 304 text/css
+INFO  2019-12-31 16:16:52,458 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=w3DjWhUtDqy3bSJKv285C-2kagUtW9F64T9z3xRah8g  
+INFO  2019-12-31 16:16:52,459 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/json2/json2.js was not modified
+INFO  2019-12-31 16:16:52,459 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8825000000000001ms 304 application/javascript
+INFO  2019-12-31 16:16:52,464 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=GcL_g4TBRVIQSi96WoMK71EGaYN9ZfsMIKm-50nlS4s  
+INFO  2019-12-31 16:16:52,465 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery/dist/jquery.js was not modified
+INFO  2019-12-31 16:16:52,465 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8767ms 304 application/javascript
+INFO  2019-12-31 16:16:52,467 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=1fo3W6qowq4PinpCsKshaVqewExoFmzrRBGKbSdAVEk  
+INFO  2019-12-31 16:16:52,467 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap/dist/js/bootstrap.js was not modified
+INFO  2019-12-31 16:16:52,468 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9636ms 304 application/javascript
+INFO  2019-12-31 16:16:52,471 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=5f0RFtuChrGi6osDzegxXWf5yOkmx45i7J9fM1p6P5w  
+INFO  2019-12-31 16:16:52,472 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/moment/min/moment-with-locales.js was not modified
+INFO  2019-12-31 16:16:52,472 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3242ms 304 application/javascript
+INFO  2019-12-31 16:16:52,474 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=ZDzsHzuLAtqQVxXwbgRtfAPXQ7UAoJRXBAUDvc9G9CI  
+INFO  2019-12-31 16:16:52,475 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/dist/jquery.validate.js was not modified
+INFO  2019-12-31 16:16:52,475 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9171ms 304 application/javascript
+INFO  2019-12-31 16:16:52,481 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=KKcUNqwNyTLaXzvuMyFk6JisiQq6Hk7ZtrciXnEf3Z0  
+INFO  2019-12-31 16:16:52,482 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/blockUI/jquery.blockUI.js was not modified
+INFO  2019-12-31 16:16:52,482 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8773000000000001ms 304 application/javascript
+INFO  2019-12-31 16:16:52,484 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=prO6YeBrp6FzpE6glX7_GlSoPssvH4_OmY6Z3YJ2c6c  
+INFO  2019-12-31 16:16:52,485 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/toastr/toastr.js was not modified
+INFO  2019-12-31 16:16:52,485 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7981ms 304 application/javascript
+INFO  2019-12-31 16:16:52,490 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.min.js?v=aPktydUv1rN3mouQeXoKi3ioFTIQlULuqYeoTAA2ihY  
+INFO  2019-12-31 16:16:52,490 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/sweetalert/dist/sweetalert.min.js was not modified
+INFO  2019-12-31 16:16:52,491 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8748ms 304 application/javascript
+INFO  2019-12-31 16:16:52,494 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=b1plKpQIB-XuGyjWec42MhmhpPzEPzFI3OC8Ia0XIoc  
+INFO  2019-12-31 16:16:52,494 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/spin.js was not modified
+INFO  2019-12-31 16:16:52,495 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9075000000000001ms 304 application/javascript
+INFO  2019-12-31 16:16:52,496 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=i7H7HL08ldqUANgfQInE7LlU2uWUdQMCJ-Q7-_zLutY  
+INFO  2019-12-31 16:16:52,497 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/spin.js/jquery.spin.js was not modified
+INFO  2019-12-31 16:16:52,497 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2309ms 304 application/javascript
+INFO  2019-12-31 16:16:52,501 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=ZOMv1vwqpT_ezNZGhvr9jJTr_jqu3lYHB7vmpxD7HmA  
+INFO  2019-12-31 16:16:52,502 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Waves/dist/waves.js was not modified
+INFO  2019-12-31 16:16:52,503 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5443ms 304 application/javascript
+INFO  2019-12-31 16:16:52,511 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=EjNSmvtPSqCVK_xG_aTvOp8hmVM_7vwyd3hg45CAMGk  
+INFO  2019-12-31 16:16:52,512 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/abp.js was not modified
+INFO  2019-12-31 16:16:52,512 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7173ms 304 application/javascript
+INFO  2019-12-31 16:16:52,514 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=XEXcdRYb4eN3XoQCbnM-BSR6UifHRLsXYDIVFZ7Oc6Q  
+INFO  2019-12-31 16:16:52,515 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js was not modified
+INFO  2019-12-31 16:16:52,515 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6377ms 304 application/javascript
+INFO  2019-12-31 16:16:52,519 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=QiSp17ew3zyFmdlcKq4HCIOw7UaqE8MC46Ekv50GzPs  
+INFO  2019-12-31 16:16:52,519 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js was not modified
+INFO  2019-12-31 16:16:52,520 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7689ms 304 application/javascript
+INFO  2019-12-31 16:16:52,525 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=vMuHbqHh635SKL2RG2qsGGCDyHg1yFeGqhPKpS34g4k  
+INFO  2019-12-31 16:16:52,526 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js was not modified
+INFO  2019-12-31 16:16:52,526 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7606ms 304 application/javascript
+INFO  2019-12-31 16:16:52,533 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=djoKib6ssm5DDzbXLe5pD7ayfFg3siaoEk-BFYzQlvI  
+INFO  2019-12-31 16:16:52,533 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js was not modified
+INFO  2019-12-31 16:16:52,534 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.1269ms 304 application/javascript
+INFO  2019-12-31 16:16:52,534 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=fPp3O_ILaqD0UHiR721w1i4iBtxo3NH7yfldI5dg0_I  
+INFO  2019-12-31 16:16:52,535 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js was not modified
+INFO  2019-12-31 16:16:52,535 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0342ms 304 application/javascript
+INFO  2019-12-31 16:16:52,540 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=Arfe4oER5FiUTDitsyC7vauFkVzED5S2QjygyKFEnZ8  
+INFO  2019-12-31 16:16:52,543 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/admin.js was not modified
+INFO  2019-12-31 16:16:52,544 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.488ms 304 application/javascript
+INFO  2019-12-31 16:16:52,546 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=VyWsNkiAGfKWocI-q8c4nTyUGbUC0ucuop0ebN3d1IQ  
+INFO  2019-12-31 16:16:52,547 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /js/main.js was not modified
+INFO  2019-12-31 16:16:52,548 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.4403ms 304 application/javascript
+INFO  2019-12-31 16:16:52,556 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637134058047347438  
+INFO  2019-12-31 16:16:52,557 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637134058047347438  
+INFO  2019-12-31 16:16:52,559 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/src/localization/messages_zh_Hans.js?v=XUuMErmB-_cG9KcjKQpdh_se_7xGkbGzQZFXwFWneJg  
+INFO  2019-12-31 16:16:52,561 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-validation/src/localization/messages_zh_Hans.js was not modified
+INFO  2019-12-31 16:16:52,562 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.3283ms 304 application/javascript
+INFO  2019-12-31 16:16:52,564 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=fva4_U7JLc8QKq91dLZyvV5oMz9WxjutKXJ_MOl_Dj8  
+INFO  2019-12-31 16:16:52,564 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Account/Login.js was not modified
+INFO  2019-12-31 16:16:52,564 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6335000000000001ms 304 application/javascript
+INFO  2019-12-31 16:16:52,565 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff  
+INFO  2019-12-31 16:16:52,565 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /fonts/material-icons/materialicons.woff was not modified
+INFO  2019-12-31 16:16:52,565 [10   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:16:52,565 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.42600000000000005ms 304 application/font-woff
+INFO  2019-12-31 16:16:52,566 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-31 16:16:52,566 [4    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:16:52,566 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-31 16:16:52,578 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2019-12-31 16:16:52,579 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2019-12-31 16:16:52,594 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2019-12-31 16:16:52,594 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/famfamfam-flags/dist/sprite/famfamfam-flags.png was not modified
+INFO  2019-12-31 16:16:52,594 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6768000000000001ms 304 image/png
+INFO  2019-12-31 16:16:52,629 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-12-31 16:16:52,630 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 50.692800000000005ms
+INFO  2019-12-31 16:16:52,630 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-31 16:16:52,630 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 74.0326ms 200 application/x-javascript
+INFO  2019-12-31 16:16:52,694 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-12-31 16:16:52,695 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 116.9289ms
+INFO  2019-12-31 16:16:52,695 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-31 16:16:52,695 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 138.21460000000002ms 200 application/x-javascript; charset=utf-8
+DEBUG 2019-12-31 16:16:54,823 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:16:59,687 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+INFO  2019-12-31 16:16:59,693 [4    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:16:59,693 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.Web.Mvc)'
+INFO  2019-12-31 16:16:59,704 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.JsonResult] Login(MyAbpProject.Web.Models.Account.LoginViewModel, System.String, System.String) on controller MyAbpProject.Web.Controllers.AccountController (MyAbpProject.Web.Mvc).
+DEBUG 2019-12-31 16:16:59,874 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:17:00,121 [9    ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application signed in.
+INFO  2019-12-31 16:17:00,138 [9    ] tonsoftJson.NewtonsoftJsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-12-31 16:17:00,147 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.Web.Mvc) in 443.2576ms
+INFO  2019-12-31 16:17:00,147 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyAbpProject.Web.Controllers.AccountController.Login (MyAbpProject.Web.Mvc)'
+INFO  2019-12-31 16:17:00,148 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 461.6589ms 200 application/json; charset=utf-8
+INFO  2019-12-31 16:17:00,153 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2019-12-31 16:17:00,176 [10   ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-12-31 16:17:00,177 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyAbpProject.Web.Controllers.HomeController.Index (MyAbpProject.Web.Mvc)'
+INFO  2019-12-31 16:17:00,179 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller MyAbpProject.Web.Controllers.HomeController (MyAbpProject.Web.Mvc).
+INFO  2019-12-31 16:17:00,198 [10   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+DEBUG 2019-12-31 16:17:00,379 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.MultiTenancy.Tenant, Id:1
+DEBUG 2019-12-31 16:17:00,380 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Users.User, Id:1
+DEBUG 2019-12-31 16:17:00,502 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Users.User, Id:1
+DEBUG 2019-12-31 16:17:00,502 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Roles.Role, Id:1
+DEBUG 2019-12-31 16:17:00,502 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:1
+DEBUG 2019-12-31 16:17:00,502 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:2
+DEBUG 2019-12-31 16:17:00,502 [4    ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Roles.RolePermissionSetting, Id:3
+INFO  2019-12-31 16:17:00,625 [4    ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 427.73060000000004ms.
+INFO  2019-12-31 16:17:00,626 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action MyAbpProject.Web.Controllers.HomeController.Index (MyAbpProject.Web.Mvc) in 447.1954ms
+INFO  2019-12-31 16:17:00,626 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyAbpProject.Web.Controllers.HomeController.Index (MyAbpProject.Web.Mvc)'
+INFO  2019-12-31 16:17:00,627 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 473.47310000000004ms 200 text/html; charset=utf-8
+INFO  2019-12-31 16:17:00,633 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=DeY2lH0e0tmNnO9XZ-gGVOGk6_YoWlZ49y7CnD3ST00  
+INFO  2019-12-31 16:17:00,634 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/css/bootstrap-select.css was not modified
+INFO  2019-12-31 16:17:00,634 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.235ms 304 text/css
+INFO  2019-12-31 16:17:00,642 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=eGSl5zNTWrXYfUx_EJW9ksC3CUTUUxvxmPiA3aQDtQo  
+INFO  2019-12-31 16:17:00,643 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /css/themes/all-themes.css was not modified
+INFO  2019-12-31 16:17:00,643 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7859ms 304 text/css
+INFO  2019-12-31 16:17:00,643 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=BLxBuNISlF2O5EBHWdsX039NvnIHy-GtcqeI_MbyIc0  
+INFO  2019-12-31 16:17:00,644 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.css was not modified
+INFO  2019-12-31 16:17:00,644 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0082ms 304 text/css
+INFO  2019-12-31 16:17:00,652 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=YM2mAT6Z3Bl89X14nBvhOgTo5bZeRXMimN62teEck84  
+INFO  2019-12-31 16:17:00,652 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.css was not modified
+INFO  2019-12-31 16:17:00,653 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5398ms 304 text/css
+INFO  2019-12-31 16:17:00,653 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+INFO  2019-12-31 16:17:00,654 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user.png was not modified
+INFO  2019-12-31 16:17:00,654 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8895000000000001ms 304 image/png
+INFO  2019-12-31 16:17:00,673 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=tXulJKckrq2j2wo8a9hvmXLDEQwhGviPTIYmEzy1dNI  
+INFO  2019-12-31 16:17:00,673 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/bootstrap-select/dist/js/bootstrap-select.js was not modified
+INFO  2019-12-31 16:17:00,674 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7631ms 304 application/javascript
+INFO  2019-12-31 16:17:00,680 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=ESVSX4dkOxamaRoYfcqPM2FfErhgfxS60fp1Fa8ou1w  
+INFO  2019-12-31 16:17:00,680 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-slimscroll/jquery.slimscroll.js was not modified
+INFO  2019-12-31 16:17:00,681 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9348000000000001ms 304 application/javascript
+INFO  2019-12-31 16:17:00,688 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=w347yqiscLjM_TxUKpqeUA1LDR3w5vshQpxpTsgkLhE  
+INFO  2019-12-31 16:17:00,688 [8    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/push.js/push.js was not modified
+INFO  2019-12-31 16:17:00,688 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7529ms 304 application/javascript
+INFO  2019-12-31 16:17:00,701 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=RQruqClWPSu7O6l9-bzesJOrIOxROTb3CPVyIIqP_cw  
+INFO  2019-12-31 16:17:00,701 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Shared/_Layout.js was not modified
+INFO  2019-12-31 16:17:00,702 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.911ms 304 application/javascript
+INFO  2019-12-31 16:17:00,702 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637134058047347438  
+INFO  2019-12-31 16:17:00,702 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637134058047347438  
+INFO  2019-12-31 16:17:00,709 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/signalr-client/signalr.min.js?v=1yGr-J4NjYMQVt6LP6vocjHIWhO-BFQLfdCs8x1Mv-U  
+INFO  2019-12-31 16:17:00,709 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/signalr-client/signalr.min.js was not modified
+INFO  2019-12-31 16:17:00,709 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6252ms 304 application/javascript
+INFO  2019-12-31 16:17:00,710 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:00,711 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2019-12-31 16:17:00,712 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:00,712 [8    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-12-31 16:17:00,713 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.8410000000000002ms
+INFO  2019-12-31 16:17:00,713 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:00,714 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.6743ms 200 application/x-javascript
+INFO  2019-12-31 16:17:00,715 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2019-12-31 16:17:00,717 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js?v=jTdZBAadu6DXq0iDTFX6vsn4q6bFhKm3XfN8Jz6dSmg  
+INFO  2019-12-31 16:17:00,718 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/abp-web-resources/Abp/Framework/scripts/libs/abp.signalr-client.js was not modified
+INFO  2019-12-31 16:17:00,718 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6871ms 304 application/javascript
+INFO  2019-12-31 16:17:00,718 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=CkgjYx6n1TnvjY7LLp6BcdXQVatpxCq2zyfWEskUzfM  
+INFO  2019-12-31 16:17:00,719 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-countTo/jquery.countTo.js was not modified
+INFO  2019-12-31 16:17:00,720 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.7714ms 304 application/javascript
+INFO  2019-12-31 16:17:00,725 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=29sBFLQqLjO75nJ0LYS7Pbb2F-CpSMccw55qO82J2YU  
+INFO  2019-12-31 16:17:00,725 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/raphael/raphael.js was not modified
+INFO  2019-12-31 16:17:00,725 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6794ms 304 application/javascript
+INFO  2019-12-31 16:17:00,725 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=O7ZH97JawAgmG1Seh_Y5I3SYWYihlR9ImDKGQvqOngg  
+INFO  2019-12-31 16:17:00,727 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/morris.js/morris.js was not modified
+INFO  2019-12-31 16:17:00,728 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.5112ms 304 application/javascript
+INFO  2019-12-31 16:17:00,728 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=HWknRmQ2zusqaWuzrej93naq1OoycPq7LXRXB54NpN0  
+INFO  2019-12-31 16:17:00,728 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/chart.js/dist/Chart.bundle.js was not modified
+INFO  2019-12-31 16:17:00,729 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.5411ms 304 application/javascript
+INFO  2019-12-31 16:17:00,731 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+INFO  2019-12-31 16:17:00,731 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /images/user-img-background.jpg was not modified
+INFO  2019-12-31 16:17:00,732 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.7561ms 304 image/jpeg
+INFO  2019-12-31 16:17:00,735 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=wslWsV-vfGziuMBzzhupFof-18pfuz4OQgquvDcQbFs  
+INFO  2019-12-31 16:17:00,737 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.js was not modified
+INFO  2019-12-31 16:17:00,742 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=frd2m6PMZSVLif63yR1wZLQh51vHKpU2-VClBasvXE0  
+INFO  2019-12-31 16:17:00,742 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.resize.js was not modified
+INFO  2019-12-31 16:17:00,743 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8828ms 304 application/javascript
+INFO  2019-12-31 16:17:00,743 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.684200000000001ms 304 application/javascript
+INFO  2019-12-31 16:17:00,750 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=bqatUhcViEOX7SnfTMWPfDOvlLd8aATcUx0PJ8W9Ig8  
+INFO  2019-12-31 16:17:00,751 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=_4iveHXfwKkb3inuYFqzqLOwZNGzuOQ9UT8MRGQZygM  
+INFO  2019-12-31 16:17:00,751 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.pie.js was not modified
+INFO  2019-12-31 16:17:00,751 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6191ms 304 application/javascript
+INFO  2019-12-31 16:17:00,751 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.categories.js was not modified
+INFO  2019-12-31 16:17:00,751 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6807000000000001ms 304 application/javascript
+INFO  2019-12-31 16:17:00,753 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=hMx2p_NtbIUcWOmiEdzS204TaDthln32OZp_8bP4DgU  
+INFO  2019-12-31 16:17:00,753 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/Flot/jquery.flot.time.js was not modified
+INFO  2019-12-31 16:17:00,753 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6887ms 304 application/javascript
+INFO  2019-12-31 16:17:00,762 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=9IaxiwEOUe_4hqw9rGjxHR4fkZkw0aWMq5oZphlhlJ8  
+INFO  2019-12-31 16:17:00,762 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/jquery-sparkline/dist/jquery.sparkline.js was not modified
+INFO  2019-12-31 16:17:00,763 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6906ms 304 application/javascript
+INFO  2019-12-31 16:17:00,766 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=twS7CJxF-FbYFNy9f72Cew5eZT5iZ6GayXqk_w59fLw  
+INFO  2019-12-31 16:17:00,767 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Home/Index.js was not modified
+INFO  2019-12-31 16:17:00,767 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6217ms 304 application/javascript
+INFO  2019-12-31 16:17:00,773 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-12-31 16:17:00,773 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 58.5643ms
+INFO  2019-12-31 16:17:00,773 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:00,774 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.74810000000001ms 200 application/x-javascript; charset=utf-8
+INFO  2019-12-31 16:17:00,870 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.eot?  
+INFO  2019-12-31 16:17:00,871 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /lib/font-awesome/fonts/fontawesome-webfont.eot was not modified
+INFO  2019-12-31 16:17:00,871 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.8533000000000001ms 304 application/vnd.ms-fontobject
+INFO  2019-12-31 16:17:00,966 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:00,981 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:00,989 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:00,990 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.768ms 200 application/json
+INFO  2019-12-31 16:17:01,163 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:01,172 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:01,173 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:01,174 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.539ms 200 application/json
+INFO  2019-12-31 16:17:01,203 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:01,209 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:01,209 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:01,209 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.102ms 200 application/json
+INFO  2019-12-31 16:17:01,237 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:01,243 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:01,243 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:01,244 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.4581ms 200 application/json
+INFO  2019-12-31 16:17:01,273 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=zYDR-2bxKaw-gIdcSpP3fQ&_=1577780221271  
+INFO  2019-12-31 16:17:01,279 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:01,290 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:01,291 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.3747ms 200 application/octet-stream
+INFO  2019-12-31 16:17:01,350 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=zYDR-2bxKaw-gIdcSpP3fQ&_=1577780221347  
+INFO  2019-12-31 16:17:01,351 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=zYDR-2bxKaw-gIdcSpP3fQ text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:17:01,356 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:01,356 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:01,359 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:01,360 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.5568ms 200 text/plain
+INFO  2019-12-31 16:17:01,372 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:01,373 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.1014ms 200 application/octet-stream
+DEBUG 2019-12-31 16:17:01,385 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"zYDR-2bxKaw-gIdcSpP3fQ","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:17:01.3776958+08:00","Properties":{}}
+INFO  2019-12-31 16:17:01,389 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=zYDR-2bxKaw-gIdcSpP3fQ text/plain;charset=UTF-8 65
+INFO  2019-12-31 16:17:01,396 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:01,396 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:01,396 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.0833ms 200 text/plain
+DEBUG 2019-12-31 16:17:01,401 [15   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: zYDR-2bxKaw-gIdcSpP3fQ
+INFO  2019-12-31 16:17:01,406 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=zYDR-2bxKaw-gIdcSpP3fQ&_=1577780221404  
+INFO  2019-12-31 16:17:01,412 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:01,413 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:01,413 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.562600000000001ms 200 application/octet-stream
+INFO  2019-12-31 16:17:01,441 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=zYDR-2bxKaw-gIdcSpP3fQ&_=1577780221439  
+INFO  2019-12-31 16:17:01,447 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:17:04,888 [15   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:17:07,313 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+INFO  2019-12-31 16:17:07,321 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful.
+INFO  2019-12-31 16:17:07,321 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'MyAbpProject.Web.Controllers.UsersController.Index (MyAbpProject.Web.Mvc)'
+INFO  2019-12-31 16:17:07,327 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Index() on controller MyAbpProject.Web.Controllers.UsersController (MyAbpProject.Web.Mvc).
+DEBUG 2019-12-31 16:17:07,610 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Users.User, Id:1
+DEBUG 2019-12-31 16:17:07,610 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Users.UserRole, Id:1
+DEBUG 2019-12-31 16:17:07,610 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Users.User, Id:2
+DEBUG 2019-12-31 16:17:07,611 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for Abp.Authorization.Users.UserRole, Id:2
+DEBUG 2019-12-31 16:17:07,611 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Roles.Role, Id:1
+DEBUG 2019-12-31 16:17:07,611 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Roles.Role, Id:2
+INFO  2019-12-31 16:17:07,617 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executing ViewResult, running view Index.
+DEBUG 2019-12-31 16:17:07,643 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.MultiTenancy.Tenant, Id:1
+DEBUG 2019-12-31 16:17:07,643 [11   ] Abp.EntityHistory.EntityHistoryHelper    - Skipping Entity Change Creation for MyAbpProject.Authorization.Users.User, Id:1
+INFO  2019-12-31 16:17:07,671 [11   ] Core.Mvc.ViewFeatures.ViewResultExecutor - Executed ViewResult - view Index executed in 55.3509ms.
+INFO  2019-12-31 16:17:07,672 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action MyAbpProject.Web.Controllers.UsersController.Index (MyAbpProject.Web.Mvc) in 343.96160000000003ms
+INFO  2019-12-31 16:17:07,672 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'MyAbpProject.Web.Controllers.UsersController.Index (MyAbpProject.Web.Mvc)'
+INFO  2019-12-31 16:17:07,672 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 359.5068ms 200 text/html; charset=utf-8
+INFO  2019-12-31 16:17:07,723 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:07,723 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6281.3971ms 0 
+INFO  2019-12-31 16:17:07,731 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=637134058047347438  
+INFO  2019-12-31 16:17:07,731 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=637134058047347438  
+INFO  2019-12-31 16:17:07,735 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:07,735 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:07,736 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetScripts", controller = "AbpScripts"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetScripts(System.String, Boolean) on controller Abp.AspNetCore.Mvc.Controllers.AbpScriptsController (Abp.AspNetCore).
+INFO  2019-12-31 16:17:07,736 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpServiceProxies"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ContentResult GetAll(Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) on controller Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController (Abp.AspNetCore).
+INFO  2019-12-31 16:17:07,738 [10   ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript
+INFO  2019-12-31 16:17:07,738 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.6729ms
+INFO  2019-12-31 16:17:07,738 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:07,738 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.501ms 200 application/x-javascript
+INFO  2019-12-31 16:17:07,738 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=JZWh5qbwKV1wU7lXzff8qF6UsBgrzkssum1iA_t1UoY  
+INFO  2019-12-31 16:17:07,738 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /view-resources/Views/Users/Index.js was not modified
+INFO  2019-12-31 16:17:07,739 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.6733ms 304 application/javascript
+INFO  2019-12-31 16:17:07,758 [4    ] Mvc.Infrastructure.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2019-12-31 16:17:07,759 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 22.572000000000003ms
+INFO  2019-12-31 16:17:07,759 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)'
+INFO  2019-12-31 16:17:07,759 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.300600000000003ms 200 application/x-javascript; charset=utf-8
+INFO  2019-12-31 16:17:07,894 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:07,898 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,899 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,899 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.433400000000001ms 200 application/json
+INFO  2019-12-31 16:17:07,944 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:07,949 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,949 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,949 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.4119ms 200 application/json
+INFO  2019-12-31 16:17:07,962 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:07,966 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,966 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,967 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.6763ms 200 application/json
+INFO  2019-12-31 16:17:07,979 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:17:07,983 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,983 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:17:07,984 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.3574ms 200 application/json
+INFO  2019-12-31 16:17:08,003 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=g4zaJYJNZOVYQ3GA86APyg&_=1577780228002  
+INFO  2019-12-31 16:17:08,008 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:08,009 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:08,009 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.9387ms 200 application/octet-stream
+INFO  2019-12-31 16:17:08,036 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=g4zaJYJNZOVYQ3GA86APyg text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:17:08,036 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=g4zaJYJNZOVYQ3GA86APyg&_=1577780228033  
+INFO  2019-12-31 16:17:08,040 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:08,041 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:08,041 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:08,041 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.4992ms 200 text/plain
+INFO  2019-12-31 16:17:08,042 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+DEBUG 2019-12-31 16:17:08,042 [10   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"g4zaJYJNZOVYQ3GA86APyg","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:17:08.0420769+08:00","Properties":{}}
+INFO  2019-12-31 16:17:08,043 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.8645000000000005ms 200 application/octet-stream
+INFO  2019-12-31 16:17:08,054 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=g4zaJYJNZOVYQ3GA86APyg text/plain;charset=UTF-8 65
+INFO  2019-12-31 16:17:08,059 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:08,059 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+DEBUG 2019-12-31 16:17:08,059 [11   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: g4zaJYJNZOVYQ3GA86APyg
+INFO  2019-12-31 16:17:08,059 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.639ms 200 text/plain
+INFO  2019-12-31 16:17:08,068 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=g4zaJYJNZOVYQ3GA86APyg&_=1577780228067  
+INFO  2019-12-31 16:17:08,072 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:17:08,072 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:17:08,073 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.6972000000000005ms 200 application/octet-stream
+INFO  2019-12-31 16:17:08,101 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=g4zaJYJNZOVYQ3GA86APyg&_=1577780228099  
+INFO  2019-12-31 16:17:08,105 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:17:09,892 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:14,901 [8    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:19,907 [11   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:23,593 [4    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: zYDR-2bxKaw-gIdcSpP3fQ
+DEBUG 2019-12-31 16:17:24,919 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:29,922 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:34,928 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:39,935 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:44,945 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:49,958 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:54,962 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:17:59,967 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:04,973 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:09,981 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:14,992 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:19,996 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:25,009 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:30,014 [17   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:35,019 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:18:38,104 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:18:38,106 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90004.12550000001ms 200 text/plain
+DEBUG 2019-12-31 16:18:40,026 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:18:43,119 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:18:43,161 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:18:43,162 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:18:43,162 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.646300000000004ms 200 application/json
+INFO  2019-12-31 16:18:43,170 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=gVBkyG1R1azvtKt_IeJ2DQ&_=1577780323167  
+INFO  2019-12-31 16:18:43,174 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:18:43,175 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:18:43,175 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.615ms 200 application/octet-stream
+INFO  2019-12-31 16:18:43,185 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=gVBkyG1R1azvtKt_IeJ2DQ&_=1577780323183  
+INFO  2019-12-31 16:18:43,186 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=gVBkyG1R1azvtKt_IeJ2DQ text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:18:43,189 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:18:43,191 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:18:43,191 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:18:43,192 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.8665ms 200 text/plain
+INFO  2019-12-31 16:18:43,192 [17   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:18:43,192 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.1292ms 200 application/octet-stream
+DEBUG 2019-12-31 16:18:43,194 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"gVBkyG1R1azvtKt_IeJ2DQ","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:18:43.1935193+08:00","Properties":{}}
+INFO  2019-12-31 16:18:43,209 [19   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=gVBkyG1R1azvtKt_IeJ2DQ&_=1577780323207  
+INFO  2019-12-31 16:18:43,213 [19   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:18:45,038 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:50,042 [18   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:18:53,583 [18   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: g4zaJYJNZOVYQ3GA86APyg
+DEBUG 2019-12-31 16:18:55,053 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:00,060 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:05,063 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:10,074 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:15,081 [19   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:20,089 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:25,097 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:30,106 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:35,121 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:40,123 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:45,128 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:50,134 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:19:55,145 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:00,150 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:05,156 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:10,163 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:20:13,218 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:20:13,218 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90008.26030000001ms 0 
+DEBUG 2019-12-31 16:20:15,171 [9    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:20:18,230 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:20:18,232 [6    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:20:18,233 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:20:18,235 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:20:18,235 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.0103ms 200 application/json
+INFO  2019-12-31 16:20:18,244 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Ldw1WOkJWBiMdN2hBrWbWA&_=1577780418241  
+INFO  2019-12-31 16:20:18,245 [8    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:20:18,245 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:20:18,246 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:20:18,246 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.4689ms 200 application/octet-stream
+INFO  2019-12-31 16:20:18,259 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Ldw1WOkJWBiMdN2hBrWbWA&_=1577780418257  
+INFO  2019-12-31 16:20:18,260 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=Ldw1WOkJWBiMdN2hBrWbWA text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:20:18,261 [9    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:20:18,261 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:20:18,262 [8    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:20:18,262 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:20:18,263 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:20:18,264 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.2378ms 200 text/plain
+DEBUG 2019-12-31 16:20:18,267 [9    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"Ldw1WOkJWBiMdN2hBrWbWA","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:20:18.2659571+08:00","Properties":{}}
+INFO  2019-12-31 16:20:18,267 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:20:18,267 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.7894000000000005ms 200 application/octet-stream
+INFO  2019-12-31 16:20:18,283 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=Ldw1WOkJWBiMdN2hBrWbWA&_=1577780418281  
+INFO  2019-12-31 16:20:18,284 [20   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:20:18,285 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:20:20,183 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:25,185 [6    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:28,583 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: gVBkyG1R1azvtKt_IeJ2DQ
+DEBUG 2019-12-31 16:20:30,195 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:35,201 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:40,215 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:45,216 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:50,228 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:20:55,231 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:00,240 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:05,245 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:10,260 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:15,262 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:20,270 [10   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:25,276 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:30,291 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:35,294 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:40,301 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:21:45,307 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:21:48,286 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:21:48,287 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90002.04830000001ms 200 text/plain
+DEBUG 2019-12-31 16:21:50,317 [22   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:21:53,300 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:21:53,303 [22   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:21:53,303 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:21:53,304 [22   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:21:53,304 [22   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.4309ms 200 application/json
+INFO  2019-12-31 16:21:53,317 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=4PGM3MX18w2bPQGRe6JMwg&_=1577780513312  
+INFO  2019-12-31 16:21:53,320 [21   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:21:53,321 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:21:53,323 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:21:53,323 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.0356000000000005ms 200 application/octet-stream
+INFO  2019-12-31 16:21:53,341 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=4PGM3MX18w2bPQGRe6JMwg&_=1577780513337  
+INFO  2019-12-31 16:21:53,342 [23   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:21:53,342 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=4PGM3MX18w2bPQGRe6JMwg text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:21:53,342 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:21:53,343 [21   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:21:53,343 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:21:53,344 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:21:53,344 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.9899ms 200 text/plain
+INFO  2019-12-31 16:21:53,346 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+DEBUG 2019-12-31 16:21:53,346 [23   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"4PGM3MX18w2bPQGRe6JMwg","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:21:53.3443953+08:00","Properties":{}}
+INFO  2019-12-31 16:21:53,346 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.9689000000000005ms 200 application/octet-stream
+INFO  2019-12-31 16:21:53,361 [24   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=4PGM3MX18w2bPQGRe6JMwg&_=1577780513357  
+INFO  2019-12-31 16:21:53,362 [24   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:21:53,362 [24   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:21:55,322 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:00,332 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:03,588 [21   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: Ldw1WOkJWBiMdN2hBrWbWA
+DEBUG 2019-12-31 16:22:05,339 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:10,349 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:15,357 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:20,365 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:25,368 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:30,378 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:35,385 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:40,393 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:45,400 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:50,408 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:22:55,418 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:00,427 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:05,436 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:10,441 [25   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:15,448 [25   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:20,454 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:23:23,370 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:23:23,370 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90008.5426ms 0 
+DEBUG 2019-12-31 16:23:25,461 [21   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:23:28,380 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:23:28,382 [21   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:23:28,382 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:23:28,382 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:23:28,383 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.2687ms 200 application/json
+INFO  2019-12-31 16:23:28,391 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=9JFavIY1crZOf3-mX6mFxA&_=1577780608386  
+INFO  2019-12-31 16:23:28,392 [28   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:23:28,392 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:23:28,393 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:23:28,393 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.7428000000000003ms 200 application/octet-stream
+INFO  2019-12-31 16:23:28,408 [21   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=9JFavIY1crZOf3-mX6mFxA&_=1577780608404  
+INFO  2019-12-31 16:23:28,408 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=9JFavIY1crZOf3-mX6mFxA text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:23:28,409 [21   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:23:28,410 [28   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:23:28,410 [21   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:23:28,410 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:23:28,410 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:23:28,411 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1028000000000002ms 200 text/plain
+INFO  2019-12-31 16:23:28,411 [28   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+DEBUG 2019-12-31 16:23:28,411 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"9JFavIY1crZOf3-mX6mFxA","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:23:28.4118329+08:00","Properties":{}}
+INFO  2019-12-31 16:23:28,412 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.8246ms 200 application/octet-stream
+INFO  2019-12-31 16:23:28,467 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=9JFavIY1crZOf3-mX6mFxA&_=1577780608462  
+INFO  2019-12-31 16:23:28,468 [4    ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:23:28,468 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:23:30,475 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:35,477 [4    ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:38,578 [28   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 4PGM3MX18w2bPQGRe6JMwg
+DEBUG 2019-12-31 16:23:40,483 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:45,494 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:50,502 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:23:55,509 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:00,519 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:05,525 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:10,532 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:15,552 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:20,565 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:25,568 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:30,575 [27   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:35,586 [30   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:40,589 [30   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:45,601 [30   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:50,605 [30   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:24:55,615 [30   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:24:58,468 [27   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:24:58,468 [27   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90000.2476ms 0 
+DEBUG 2019-12-31 16:25:00,621 [31   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:25:03,479 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:25:03,480 [31   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:25:03,480 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:25:03,480 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:25:03,480 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5619ms 200 application/json
+INFO  2019-12-31 16:25:03,489 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=dKZDgLFPIorJeOD1mCT5DA&_=1577780703484  
+INFO  2019-12-31 16:25:03,490 [32   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:25:03,490 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:25:03,491 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:25:03,492 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1442ms 200 application/octet-stream
+INFO  2019-12-31 16:25:03,502 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=dKZDgLFPIorJeOD1mCT5DA&_=1577780703497  
+INFO  2019-12-31 16:25:03,503 [34   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:25:03,503 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:25:03,503 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=dKZDgLFPIorJeOD1mCT5DA text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:25:03,504 [34   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:25:03,504 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:25:03,504 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:25:03,505 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.021ms 200 text/plain
+INFO  2019-12-31 16:25:03,506 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:25:03,507 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.7761000000000005ms 200 application/octet-stream
+DEBUG 2019-12-31 16:25:03,507 [27   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"dKZDgLFPIorJeOD1mCT5DA","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:25:03.5062719+08:00","Properties":{}}
+INFO  2019-12-31 16:25:03,520 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=dKZDgLFPIorJeOD1mCT5DA&_=1577780703515  
+INFO  2019-12-31 16:25:03,521 [34   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:25:03,521 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:25:05,630 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:10,637 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:13,585 [34   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 9JFavIY1crZOf3-mX6mFxA
+DEBUG 2019-12-31 16:25:15,647 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:20,653 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:25,665 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:30,667 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:35,680 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:40,681 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:45,692 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:50,698 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:25:55,711 [36   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:00,717 [36   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:05,726 [36   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:10,730 [36   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:15,740 [36   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:20,744 [37   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:25,751 [37   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:30,764 [37   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:26:33,518 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:26:33,518 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89997.35680000001ms 0 
+DEBUG 2019-12-31 16:26:35,774 [37   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:26:38,529 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:26:38,529 [37   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:26:38,530 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:26:38,530 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:26:38,530 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.4715ms 200 application/json
+INFO  2019-12-31 16:26:38,538 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=hUd19i2hNmUIQ9y0-PO6zw&_=1577780798531  
+INFO  2019-12-31 16:26:38,538 [34   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:26:38,538 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:26:38,539 [34   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:26:38,539 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.6861000000000002ms 200 application/octet-stream
+INFO  2019-12-31 16:26:38,554 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=hUd19i2hNmUIQ9y0-PO6zw&_=1577780798547  
+INFO  2019-12-31 16:26:38,554 [37   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:26:38,554 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=hUd19i2hNmUIQ9y0-PO6zw text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:26:38,555 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:26:38,555 [36   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:26:38,555 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:26:38,561 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:26:38,561 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:26:38,561 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7.1314ms 200 application/octet-stream
+INFO  2019-12-31 16:26:38,561 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6.759ms 200 text/plain
+DEBUG 2019-12-31 16:26:38,561 [34   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"hUd19i2hNmUIQ9y0-PO6zw","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:26:38.5617088+08:00","Properties":{}}
+INFO  2019-12-31 16:26:38,570 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=hUd19i2hNmUIQ9y0-PO6zw&_=1577780798565  
+INFO  2019-12-31 16:26:38,571 [37   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:26:38,571 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:26:40,794 [34   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:45,799 [37   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:48,588 [34   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: dKZDgLFPIorJeOD1mCT5DA
+DEBUG 2019-12-31 16:26:50,808 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:26:55,934 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:00,944 [41   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:05,958 [41   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:10,962 [41   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:15,972 [41   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:20,974 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:25,982 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:30,994 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:36,039 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:41,042 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:46,044 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:51,057 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:27:56,059 [39   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:01,066 [39   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:06,075 [39   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:28:08,570 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:28:08,570 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 89998.6346ms 0 
+DEBUG 2019-12-31 16:28:11,082 [42   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:28:13,584 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:28:13,584 [39   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:28:13,584 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:28:13,585 [39   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:28:13,585 [39   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0676ms 200 application/json
+INFO  2019-12-31 16:28:13,594 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=pIIVuN-mCVZi3ywB3AFgQw&_=1577780893586  
+INFO  2019-12-31 16:28:13,595 [43   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:28:13,595 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:28:13,596 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:28:13,596 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5863ms 200 application/octet-stream
+INFO  2019-12-31 16:28:13,620 [44   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=pIIVuN-mCVZi3ywB3AFgQw&_=1577780893604  
+INFO  2019-12-31 16:28:13,620 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=pIIVuN-mCVZi3ywB3AFgQw text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:28:13,620 [42   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:28:13,620 [44   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:28:13,621 [44   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:28:13,621 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:28:13,621 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:28:13,621 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.2533ms 200 text/plain
+INFO  2019-12-31 16:28:13,621 [42   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:28:13,621 [42   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5578ms 200 application/octet-stream
+DEBUG 2019-12-31 16:28:13,622 [44   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"pIIVuN-mCVZi3ywB3AFgQw","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:28:13.6211459+08:00","Properties":{}}
+INFO  2019-12-31 16:28:13,632 [43   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=pIIVuN-mCVZi3ywB3AFgQw&_=1577780893624  
+INFO  2019-12-31 16:28:13,633 [43   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:28:13,633 [43   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:28:16,090 [43   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:21,097 [45   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:23,581 [42   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: hUd19i2hNmUIQ9y0-PO6zw
+DEBUG 2019-12-31 16:28:26,104 [45   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:31,114 [45   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:36,121 [45   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:41,132 [45   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:46,135 [45   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:51,300 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:28:56,308 [47   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:01,317 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:06,325 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:11,556 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:16,574 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:21,581 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:26,589 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:31,599 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:36,607 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:41,614 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:29:43,636 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:29:43,636 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90003.3337ms 0 
+DEBUG 2019-12-31 16:29:46,621 [48   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:29:48,648 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:29:48,648 [48   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:29:48,648 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:29:48,648 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:29:48,648 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9255ms 200 application/json
+INFO  2019-12-31 16:29:48,658 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=l6VcAtzPPoPYZaezEHnHPA&_=1577780988651  
+INFO  2019-12-31 16:29:48,659 [46   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:29:48,659 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:29:48,660 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:29:48,660 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.5462ms 200 application/octet-stream
+INFO  2019-12-31 16:29:48,683 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=l6VcAtzPPoPYZaezEHnHPA text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:29:48,683 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=l6VcAtzPPoPYZaezEHnHPA&_=1577780988674  
+INFO  2019-12-31 16:29:48,684 [48   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:29:48,684 [48   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:29:48,684 [47   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:29:48,684 [47   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:29:48,684 [47   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:29:48,684 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3425ms 200 text/plain
+DEBUG 2019-12-31 16:29:48,686 [47   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"l6VcAtzPPoPYZaezEHnHPA","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:29:48.6855833+08:00","Properties":{}}
+INFO  2019-12-31 16:29:48,686 [47   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:29:48,686 [47   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.335ms 200 application/octet-stream
+INFO  2019-12-31 16:29:48,710 [50   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=l6VcAtzPPoPYZaezEHnHPA&_=1577780988700  
+INFO  2019-12-31 16:29:48,711 [50   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:29:48,711 [50   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:29:51,624 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:56,636 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:29:59,584 [46   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: pIIVuN-mCVZi3ywB3AFgQw
+DEBUG 2019-12-31 16:30:01,644 [52   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:06,652 [52   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:11,657 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:16,664 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:21,674 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:26,684 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:31,695 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:36,696 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:41,701 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:46,713 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:51,716 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:30:56,746 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:01,746 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:06,757 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:11,763 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:16,776 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:31:18,718 [54   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:31:18,718 [54   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90006.8687ms 0 
+DEBUG 2019-12-31 16:31:21,779 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:31:23,730 [54   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:31:23,731 [54   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:31:23,731 [54   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:31:23,731 [54   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:31:23,731 [54   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.4076ms 200 application/json
+INFO  2019-12-31 16:31:23,738 [56   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=DG6IEdyS1P88QJ5KH4qytw&_=1577781083729  
+INFO  2019-12-31 16:31:23,739 [56   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:31:23,739 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:31:23,740 [56   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:31:23,740 [56   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.7631000000000001ms 200 application/octet-stream
+INFO  2019-12-31 16:31:23,751 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=DG6IEdyS1P88QJ5KH4qytw&_=1577781083742  
+INFO  2019-12-31 16:31:23,752 [57   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=DG6IEdyS1P88QJ5KH4qytw text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:31:23,752 [46   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:31:23,752 [57   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:31:23,752 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:31:23,752 [57   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:31:23,753 [57   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:31:23,753 [46   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:31:23,753 [46   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.9816ms 200 application/octet-stream
+INFO  2019-12-31 16:31:23,753 [57   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.6017000000000001ms 200 text/plain
+DEBUG 2019-12-31 16:31:23,754 [54   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"DG6IEdyS1P88QJ5KH4qytw","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:31:23.7530208+08:00","Properties":{}}
+INFO  2019-12-31 16:31:23,768 [54   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=DG6IEdyS1P88QJ5KH4qytw&_=1577781083759  
+INFO  2019-12-31 16:31:23,769 [54   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:31:23,769 [54   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:31:26,788 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:31,795 [54   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:34,586 [46   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: l6VcAtzPPoPYZaezEHnHPA
+DEBUG 2019-12-31 16:31:36,802 [56   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:41,811 [56   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:46,816 [56   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:51,824 [56   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:31:56,835 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:01,840 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:06,848 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:11,856 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null

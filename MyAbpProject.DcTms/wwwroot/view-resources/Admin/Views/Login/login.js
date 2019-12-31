@@ -38,11 +38,11 @@ $(document).ready(function () {
                 //abp.notify.success('created new person with id = ' + data.personId);
                 if (data.code == 0) {
                     abp.notify.success(data.msg);
-                    if (data.data.returnUrl) {
-                        window.location.href = data.data.returnUrl;
-                    } else {
-                        window.location.href = '/admin/adminhome/index';
-                    }
+                    //if (data.data.returnUrl) {
+                    //    window.location.href = data.data.returnUrl;
+                    //} else {
+                    window.location.href = '/admin/adminhome/index';
+                    //}
                 } else {
                     abp.notify.warn(data.code + '： ' + data.msg, '登录提示');
                 }
