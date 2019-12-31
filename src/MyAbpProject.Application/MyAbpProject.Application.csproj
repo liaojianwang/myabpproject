@@ -11,7 +11,7 @@
     <RootNamespace>MyAbpProject</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>H:\廖建旺\网上源码\myabpproject\src\MyAbpProject.Application\MyAbpProject.Application.xml</DocumentationFile>
+    <DocumentationFile></DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyAbpProject.Core\MyAbpProject.Core.csproj" />

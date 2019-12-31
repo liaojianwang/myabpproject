@@ -1,4 +1,5 @@
-﻿using Abp.Modules;
+﻿using Abp.Configuration.Startup;
+using Abp.Modules;
 using Abp.Reflection.Extensions;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -23,10 +24,13 @@ namespace MyAbpProject.DcTms.Startup
             _env = env;
             _appConfiguration = env.GetAppConfiguration();
         }
-
+        /// <summary>
+        /// 预加载方法
+        /// </summary>
         public override void PreInitialize()
         {
-
+            //如果你需要在调用接口而产生异常的时候展示异常的详细信息
+            //Configuration.Modules.AbpWebCommon().SendAllExceptionsToClients = true;
         }
         public override void Initialize()
         {

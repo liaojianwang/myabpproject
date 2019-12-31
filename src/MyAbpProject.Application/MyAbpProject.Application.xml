@@ -4,6 +4,21 @@
         <name>MyAbpProject.Application</name>
     </assembly>
     <members>
+        <member name="T:MyAbpProject.AdminLogin.Dtos.VmAdminLogin">
+            <summary>
+            后面登录页面模型
+            </summary>
+        </member>
+        <member name="P:MyAbpProject.AdminLogin.Dtos.VmAdminLogin.txtUserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:MyAbpProject.AdminLogin.Dtos.VmAdminLogin.txtPassword">
+            <summary>
+            密码
+            </summary>
+        </member>
         <member name="F:MyAbpProject.AppConsts.DefaultPassPhrase">
             <summary>
             Default pass phrase for SimpleStringCipher decrypt/encrypt operations

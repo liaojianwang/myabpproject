@@ -41,6 +41,7 @@ namespace MyAbpProject.DcTms.Startup
             //MVC
             services.AddMvc(options =>
             {
+                //针对防伪令牌进行验证
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
                 options.Filters.Add(new AbpAutoValidateAntiforgeryTokenAttribute());
                 //options.Filters.Add(new CorsAuthorizationFilterFactory(DefaultCorsPolicyName));
@@ -56,6 +57,10 @@ namespace MyAbpProject.DcTms.Startup
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
             services.AddSession();
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = $"/Admin/Login/Index";
+            });
 
             IdentityRegistrar.Register(services);
             services.Configure<SecurityStampValidatorOptions>(options => options.ValidationInterval = TimeSpan.FromHours(12));
@@ -64,7 +69,9 @@ namespace MyAbpProject.DcTms.Startup
             {
                 o.ExpireTimeSpan = TimeSpan.FromHours(4);
                 o.SlidingExpiration = true;
+                o.LoginPath = $"/Admin/Login/Index";
             });
+            AuthConfigurer.Configure(services, _appConfiguration);
 
             return services.AddAbp<MyAbpProjectWebMvcModule>(options =>
             {

@@ -56,7 +56,7 @@ namespace MyAbpProject.ArticleServices
             catch (Exception ex)
             {
                 Logger.ErrorFormat("添加文章类异常：{0},{1}", ex.Message, JsonConvert.SerializeObject(article));
-                throw new UserFriendlyException(ex.Message);
+                throw new UserFriendlyException(400, ex.Message);
             }
         }
     }
