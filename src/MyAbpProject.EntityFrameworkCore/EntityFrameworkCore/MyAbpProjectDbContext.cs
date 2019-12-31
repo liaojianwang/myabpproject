@@ -16,12 +16,12 @@ namespace MyAbpProject.EntityFrameworkCore
             : base(options)
         {
         }
-        public DbSet<ArticleInfo> ArticleInfo { get; set; }
-        public DbSet<ArticleAlbumsInfo> ArticleAlbumsInfo { get; set; }
-        public DbSet<ArticleAttachInfo> ArticleAttachInfo { get; set; }
-        public DbSet<ArticleGoodsInfo> ArticleGoodsInfo { get; set; }
-        public DbSet<ArticleGoodsSpecInfo> ArticleGoodsSpecInfo { get; set; }
-        public DbSet<UserGroupPriceInfo> UserGroupPriceInfo { get; set; }
-        public DbSet<ManagerInfo> ManagerInfo { get; set; }
+        public virtual DbSet<ArticleInfo> ArticleInfo { get; set; }
+        public virtual DbSet<ArticleAlbumsInfo> ArticleAlbumsInfo { get; set; }
+        public virtual DbSet<ArticleAttachInfo> ArticleAttachInfo { get; set; }
+        public virtual DbSet<ArticleGoodsInfo> ArticleGoodsInfo { get; set; }
+        public virtual DbSet<ArticleGoodsSpecInfo> ArticleGoodsSpecInfo { get; set; }
+        public virtual DbSet<UserGroupPriceInfo> UserGroupPriceInfo { get; set; }
+        public virtual DbSet<ManagerInfo> ManagerInfo { get; set; }
     }
 }

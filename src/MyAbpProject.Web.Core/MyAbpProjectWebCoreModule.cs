@@ -43,10 +43,11 @@ namespace MyAbpProject
             // Use database for language management
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
 
-            Configuration.Modules.AbpAspNetCore()
-                 .CreateControllersForAppServices(
-                     typeof(MyAbpProjectApplicationModule).GetAssembly()
-                 );
+            //关闭自动生成的application service api
+            //Configuration.Modules.AbpAspNetCore()
+            //     .CreateControllersForAppServices(
+            //         typeof(MyAbpProjectApplicationModule).GetAssembly()
+            //     );
 
             ConfigureTokenAuth();
         }
