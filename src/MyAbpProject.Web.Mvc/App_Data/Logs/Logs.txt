@@ -18902,3 +18902,39 @@ DEBUG 2019-12-31 16:31:56,835 [46   ] HttpRequestEntityChangeSetReasonProvider -
 DEBUG 2019-12-31 16:32:01,840 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
 DEBUG 2019-12-31 16:32:06,848 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
 DEBUG 2019-12-31 16:32:11,856 [46   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:16,865 [58   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:21,872 [58   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:26,878 [58   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:31,884 [58   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:36,892 [40   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:41,901 [40   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:46,910 [40   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+DEBUG 2019-12-31 16:32:51,919 [40   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:32:53,769 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:32:53,770 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 90000.97810000001ms 200 text/plain
+DEBUG 2019-12-31 16:32:56,927 [59   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
+INFO  2019-12-31 16:32:58,781 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr/negotiate text/plain;charset=UTF-8 0
+INFO  2019-12-31 16:32:58,781 [59   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:32:58,782 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:32:58,782 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr/negotiate'
+INFO  2019-12-31 16:32:58,782 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.3124ms 200 application/json
+INFO  2019-12-31 16:32:58,789 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=E65uqn61EH1oryIDT81n6Q&_=1577781178780  
+INFO  2019-12-31 16:32:58,790 [59   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:32:58,790 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:32:58,791 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:32:58,791 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.9447ms 200 application/octet-stream
+INFO  2019-12-31 16:32:58,805 [58   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=E65uqn61EH1oryIDT81n6Q&_=1577781178795  
+INFO  2019-12-31 16:32:58,806 [62   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/signalr?id=E65uqn61EH1oryIDT81n6Q text/plain;charset=UTF-8 32
+INFO  2019-12-31 16:32:58,806 [58   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:32:58,806 [58   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:32:58,806 [62   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:32:58,806 [62   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+INFO  2019-12-31 16:32:58,806 [62   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:32:58,806 [62   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 0.9024000000000001ms 200 text/plain
+INFO  2019-12-31 16:32:58,807 [62   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint '/signalr'
+INFO  2019-12-31 16:32:58,807 [62   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.1442ms 200 application/octet-stream
+DEBUG 2019-12-31 16:32:58,807 [58   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"E65uqn61EH1oryIDT81n6Q","IpAddress":null,"TenantId":1,"UserId":null,"ConnectTime":"2019-12-31T16:32:58.8074576+08:00","Properties":{}}
+INFO  2019-12-31 16:32:58,816 [59   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/signalr?id=E65uqn61EH1oryIDT81n6Q&_=1577781178807  
+INFO  2019-12-31 16:32:58,817 [59   ] tion.Cookies.CookieAuthenticationHandler - Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+INFO  2019-12-31 16:32:58,817 [59   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint '/signalr'
+DEBUG 2019-12-31 16:33:01,937 [63   ] HttpRequestEntityChangeSetReasonProvider - Unable to get URL from HttpRequest, fallback to null
