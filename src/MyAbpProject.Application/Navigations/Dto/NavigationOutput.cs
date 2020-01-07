@@ -12,6 +12,10 @@ namespace MyAbpProject.Navigations.Dto
         public long Id { get; set; }
         public long ParentId { get; set; }
         public string NavTitle { get; set; }
+        public string NavName { get; set; }
         public int ClassLayer { get; set; }
+        public string IconUrl { get; set; }
+        public string LinkUrl { get; set; }
+        public long ChannelId { get; set; }
     }
 }
