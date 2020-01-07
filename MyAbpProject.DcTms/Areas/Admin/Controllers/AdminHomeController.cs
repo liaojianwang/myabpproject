@@ -30,8 +30,8 @@ namespace MyAbpProject.DcTms.Areas.Admin.Controllers
             return View();
         }
 
+        [HttpGet]
         [DontWrapResult]
-        [HttpPost]
         public JsonResult GetNavigationList()
         {
             var result = _navigation.GetList(0, "System");

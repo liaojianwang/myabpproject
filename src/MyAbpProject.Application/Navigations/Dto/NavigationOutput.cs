@@ -10,7 +10,7 @@ namespace MyAbpProject.Navigations.Dto
     public class NavigationOutput
     {
         public long Id { get; set; }
-        public int ParentId { get; set; }
+        public long ParentId { get; set; }
         public string NavTitle { get; set; }
         public int ClassLayer { get; set; }
     }

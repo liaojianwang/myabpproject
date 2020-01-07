@@ -60,7 +60,7 @@ function loadMenuTree(_islink) {
 		islink = true;
 	}
     //发送AJAX请求
-    abp.ui.setBusy($("#sidebar-nav"), null);
+    //abp.ui.setBusy($("#sidebar-nav"), null);
     //abp.ui.setBusy(
     //    null,
     //    abp.ajax({
@@ -82,9 +82,9 @@ function loadMenuTree(_islink) {
     //    })
     //);
     $.ajax({
-        type: "post",
-        url: "GetNavigationList?_t=" + Math.random(),
-        dataType: "html",
+        type: "GET",
+        url: "/Admin/AdminHome/GetNavigationList?_t=" + Math.random(),
+        dataType: "json",
         success: function (data, textStatus) {
             //将得到的数据插件到页面中
             //$("#sidebar-nav").html(data);

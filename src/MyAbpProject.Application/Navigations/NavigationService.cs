@@ -9,7 +9,7 @@ using System.Text;
 
 namespace MyAbpProject.Navigations
 {
-    public class NavigationService: INavigationService
+    public class NavigationService : INavigationService
     {
         private readonly IDapperRepository<NavigationInfo, long> _navigation;
         private readonly IObjectMapper _objectMapper;
@@ -27,7 +27,8 @@ namespace MyAbpProject.Navigations
             {
                 return list;
             }
-            var query = _objectMapper.ProjectTo<NavigationOutput>(_navigation.GetAll(c => c.NavType == navtype).AsQueryable()).ToList();
+            var navigations = _navigation.GetAll(c => c.NavType == navtype);//.ToList();
+            var query = _objectMapper.ProjectTo<NavigationOutput>(navigations.AsQueryable()).ToList();
             GetChilds(query, list, parentid, 0);
             return list;
         }
